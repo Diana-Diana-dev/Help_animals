@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Волонтёрство</title>
+</head>
+<body>
+	<form action="index.html" method="post">
+	   <h2>Волонтёрство</h2>
+	   <hr>
+	   <p>Заявка</p>
+	   <p>
+	   	Отправьте нам заявку о том, что готовы помочь в транспортировке, мы позвоним вам.
+	   </p>
+	   <label for="name">Фамилия и имя</label>
+	   <p><input type="text" id="name" name="username" tabindex="1" placeholder="Фамилия и имя"></p>
+	   <label for="tel">Номер телефона</label>
+	   <p><input type="tel" id="tel" name="username" tabindex="2" placeholder="Номер телефона" required="" pattern="+375" maxlength="13" minlength="13"></p>
+	   <p><input type="radio" id="always" value="always" name="help">
+	   <label for="always">Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)</label></p>
+	   <p><input type="radio" id="sometimes" value="sometimes" name="help">
+	   <label for="sometimes">Готов помогать иногда. Хочу выбрать удобное для меня время</label></p>
+	   <p><textarea id="note" name="note" tabindex="3" placeholder="Замечания" cols="50" rows="5"></textarea></p>
+	</form>
+</body>
+</html>
