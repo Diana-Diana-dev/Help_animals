@@ -8,6 +8,7 @@ border-radius: 0px;
 }
 ul{
   list-style-image: none;
+  text-decoration: none;
   display: inline;
 }
 h1{
