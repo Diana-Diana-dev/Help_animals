@@ -1,4 +1,30 @@
-.icon{
+@@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-regular.woff2') format('woff2'),
+      url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-regular.woff') format('woff');
+}
+@@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 250;
+  font-display: swap;
+  src:url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-ultralight.woff2') format('woff2'),
+      url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-ultralight.woff') format('woff');
+}
+@@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-bold.woff2') format('woff2'),
+      url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-bold.woff') format('woff');
+}
+
+
+.icon img{
   display: flex;
 height: 150px;
 width: 150px;
@@ -6,11 +32,13 @@ left: 8px;
 top: 0px;
 border-radius: 0px;
 }
-ul{
+  ul{
   list-style-image: none;
-  text-decoration: none;
-  display: inline;
 }
-h1{
+  li{
+  text-decoration: none;
+  display: inline-block;
+}
+  h1{
   color: red;
 }
