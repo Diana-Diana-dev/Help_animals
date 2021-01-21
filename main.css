@@ -25,7 +25,7 @@
 
 
 .icon img{
-  display: flex;
+  justify-content:space-around;
 height: 150px;
 width: 150px;
 left: 8px;
@@ -34,11 +34,9 @@ border-radius: 0px;
 }
   ul{
   list-style-image: none;
+  display: inline-block;
 }
   li{
   text-decoration: none;
-  display: inline-block;
-}
-  h1{
-  color: red;
+
 }
