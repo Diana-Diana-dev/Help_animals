@@ -39,6 +39,12 @@
       url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-semibold.woff') format('woff');
 }
 
+body {
+  font-family: 'Gilroy', serif;
+}
+.header{
+  position: absolute;
+}
 
 .icon img{
   justify-content:space-around;
