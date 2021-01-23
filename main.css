@@ -22,6 +22,22 @@
   src:url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-bold.woff2') format('woff2'),
       url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-bold.woff') format('woff');
 }
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-medium.woff2') format('woff2'),
+      url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-medium.woff') format('woff');
+}
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-semibold.woff2') format('woff2'),
+      url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-semibold.woff') format('woff');
+}
 
 
 .icon img{
