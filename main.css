@@ -142,9 +142,9 @@ a{
 .save-life{
   display: flex;
   flex-direction: row;
-
-
-
+}
+.heart{
+display: inline-block;
 }
 .icon img{
 
