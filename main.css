@@ -111,7 +111,13 @@ body {
   background: https://diana-diana-dev.github.io/Help_animals/pictures/dog1.png;
   border-radius: 0px 0px 8px 8px;
   position: absolute;
-  width: 718px
+  width: 718px;
+  height: 713px;
+  left: 538px;
+  top: 0px;
+}
+.save-life{
+  display: flex;
 }
 .body-color{
   background-color: #F6F6F6
