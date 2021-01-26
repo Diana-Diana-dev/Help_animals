@@ -42,7 +42,7 @@
 body {
   font-family: 'Gilroy', serif;
 }
-.save-life__save-life__name{
+.save-life save-life__name{
   font-family: Gilroy;
   font-style: normal;
   font-weight: bold;
@@ -55,7 +55,7 @@ body {
   left: 110px;
   top: 164px;
 }
-.save-life__save-life__blag{
+.save-life save-life__blag{
   font-family: Gilroy;
   font-style: normal;
   font-weight: 300;
@@ -68,7 +68,7 @@ body {
   left: 110px;
   top: 243px;
   }
-.save-life__save-life__target{
+.save-life save-life__target{
   font-family: Gilroy;
   font-style: normal;
   font-weight: 600;
@@ -81,7 +81,7 @@ body {
   left: 110px;
   top: 273px;
   }
-.save-life__save-life__lasttime{
+.save-life save-life__lasttime{
   font-family: Gilroy;
   font-style: normal;
   font-weight: 600;
@@ -94,7 +94,7 @@ body {
   left: 110px;
   top: 360px;
 }
-.save-life__save-life__btn{
+.save-life save-life__btn{
   font-family: Gilroy;
   font-style: normal;
   font-weight: 500;
@@ -107,8 +107,8 @@ body {
   right: 31px;
   top: cals(50%-32px/2);
 }
-.save-life__dog__bigdog{
-  background: url(https://diana-diana-dev.github.io/Help_animals/pictures/dog1.png);
+.save-life save-life__dog{
+  background: url("https://diana-diana-dev.github.io/Help_animals/pictures/dog1.png");
   border-radius: 0px 0px 8px 8px;
   position: absolute;
   width: 718px;
@@ -116,19 +116,24 @@ body {
   left: 538px;
   top: 0px;
 }
-.save-life{
-  display: flex;
+.save-life save-life__cat{
+  position: absolute;
+  width: 483px;
+  height: 469px;
+  left: 607px;
+  top: 470px;
+  background: url("https://diana-diana-dev.github.io/Help_animals/pictures/cat1.png")
 }
+
 .body-color{
   background-color: #F6F6F6
 }
 .header-content__nav{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
 }
 .nav{
+  display: flex;
+  justify-content: space-around;
   list-style-type: none;
 }
 a{
@@ -141,26 +146,29 @@ a{
 }
 .save-life{
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
 }
 .heart{
-display: inline-block;
+  display: flex;
+  justify-content: space-around;
 }
 .icon {
 display: flex;
 justify-content: space-around;
-position: absolute;
-width: 150px;
-height: 150px;
-left: 8px;
-top: 0px;
-background: #F6F6F6;
-border: 1px solid rgba(255, 255, 255, 0.5);
-box-sizing: border-box;
-box-shadow: 6px 6px 16px
-rgba(224, 224, 224, 0.6),
--6px -6px 16px
-rgba(255, 255, 255, 0.77);
+}
+.icon__item{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 8px;
+  top: 0px;
+  background: #F6F6F6;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  box-shadow: 6px 6px 16px
+  rgba(224, 224, 224, 0.6),
+  -6px -6px 16px
+  rgba(255, 255, 255, 0.77);
 }
 .shrift__help {
   font-family: Gilroy;
