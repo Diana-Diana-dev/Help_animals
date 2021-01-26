@@ -44,7 +44,8 @@ body {
 }
 .header-content{
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 }
 .nav{
@@ -60,7 +61,8 @@ a{
 }
 .save-life{
   display: flex;
-  
+  flex-direction: row;
+
 
 
 }
