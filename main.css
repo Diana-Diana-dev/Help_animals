@@ -42,6 +42,58 @@
 body {
   font-family: 'Gilroy', serif;
 }
+h1{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 87px;
+  color: #242424;
+  position: absolute;
+  width: 659px;
+  height: 77px;
+  left: 110px;
+  top: 164px;
+}
+.save-life__save-life__blag{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #6B6B6B;
+  position: absolute;
+  width: 659px;
+  height: 18px;
+  left: 110px;
+  top: 243px;
+  }
+.save-life__save-life__target{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #474747;
+  position: absolute;
+  width: 659px;
+  height: 44px;
+  left: 110px;
+  top: 273px;
+  }
+.save-life__save-life__lasttime{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #C78100;
+  position: absolute;
+  width: 428px;
+  height: 116px;
+  left: 110px;
+  top: 360px;
+}
 .body-color{
   background-color: #F6F6F6
 }
