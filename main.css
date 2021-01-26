@@ -42,6 +42,9 @@
 body {
   font-family: 'Gilroy', serif;
 }
+.body-color{
+  background-color: #F6F6F6
+}
 .header-content{
   display: flex;
   flex-direction: row;
