@@ -47,9 +47,8 @@ body {
 }
 .header-content{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+
 }
 .nav{
   list-style-type: none;
