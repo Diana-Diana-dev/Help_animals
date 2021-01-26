@@ -108,7 +108,7 @@ body {
   top: cals(50%-32px/2);
 }
 .save-life__dog__bigdog{
-  background: https://diana-diana-dev.github.io/Help_animals/pictures/dog1.png;
+  background: url(https://diana-diana-dev.github.io/Help_animals/pictures/dog1.png);
   border-radius: 0px 0px 8px 8px;
   position: absolute;
   width: 718px;
@@ -124,6 +124,7 @@ body {
 }
 .header-content__nav{
   display: flex;
+  flex-direction: column;
   justify-content: center;
 
 }
