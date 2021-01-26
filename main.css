@@ -152,6 +152,48 @@ a{
   display: flex;
   justify-content: space-around;
 }
+.heart-big__name{
+  position: absolute;
+  width: 466px;
+  height: 94px;
+  left: 693px;
+  top: 962px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #C78100;
+}
+.heart-big__text1{
+  position: absolute;
+  width: 466px;
+  height: 155px;
+  left: 693px;
+  top: 1084px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #242424;
+}
+.heart-big__text2{
+  position: absolute;
+  width: 466px;
+  height: 88px;
+  left: 693px;
+  top: 1259px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #242424;
+}
 .icon {
 display: flex;
 justify-content: space-around;
