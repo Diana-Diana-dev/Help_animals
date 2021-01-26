@@ -154,6 +154,7 @@ a{
 .heart{
   display: flex;
   justify-content: space-around;
+  margin-top: 1px;
 }
 .heart-big__name{
   position: absolute;
