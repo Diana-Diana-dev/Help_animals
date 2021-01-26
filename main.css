@@ -149,8 +149,20 @@ display: inline-block;
 .icon {
 display: flex;
 justify-content: space-around;
+position: absolute;
+width: 150px;
+height: 150px;
+left: 8px;
+top: 0px;
+background: #F6F6F6;
+border: 1px solid rgba(255, 255, 255, 0.5);
+box-sizing: border-box;
+box-shadow: 6px 6px 16px
+rgba(224, 224, 224, 0.6),
+-6px -6px 16px
+rgba(255, 255, 255, 0.77);
 }
-.shrift {
+.shrift__help {
   font-family: Gilroy;
   font-style: normal;
   font-weight: 300;
