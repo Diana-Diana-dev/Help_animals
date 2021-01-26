@@ -146,8 +146,24 @@ a{
 .heart{
 display: inline-block;
 }
-.icon img{
-
+.icon {
+display: flex;
+justify-content: space-around;
+}
+.shrift {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 24px;
+  position: absolute;
+  width: 368px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
   ul{
 
