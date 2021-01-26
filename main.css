@@ -38,7 +38,10 @@
   src:url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-semibold.woff2') format('woff2'),
       url('D:\ДИАНА\Gidhub\Help_animals\fonts\gilroy-semibold.woff') format('woff');
 }
-
+*{
+  padding: 0px;
+  margin: 0px;
+}
 body {
   font-family: 'Gilroy', serif;
 }
