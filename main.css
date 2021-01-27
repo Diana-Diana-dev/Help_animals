@@ -135,7 +135,7 @@ a{
   top: 360px;
 }
 .save-life__btn{
-  position: absolute;
+  position: relative;
   font-family: Gilroy;
   font-style: normal;
   font-weight: 500;
@@ -148,7 +148,7 @@ a{
   top: cals(50%-32px/2);
 }
 .save-life__dog{
-  position: absolute;
+  position: relative;
   /*right top;*/
   border-radius: 0px 0px 8px 8px;
   width: 718px;
