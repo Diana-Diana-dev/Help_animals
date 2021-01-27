@@ -77,6 +77,11 @@ a{
   flex-direction: row;
   margin: 0px auto;
 }
+.save-life{
+  width: 1366px;
+  display: flex;
+  position: absolute;
+}
 .save-life__name{
   font-family: Gilroy;
   font-style: normal;
