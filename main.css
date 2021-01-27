@@ -44,6 +44,8 @@
 }
 body {
   font-family: 'Gilroy', serif;
+  max-width: 1366px;
+  margin: 0 auto;
 }
 
 .body-color{
