@@ -213,27 +213,13 @@ a{
   color: #242424;
 }
 .icon {
-width: 1366px;
+max-width: 1366px;
 display: flex;
 justify-content: space-around;
 margin-top: 0px фauto;
 position: relative;
 }
-.icon__item{
-
-  width: 150px;
-  height: 150px;
-  left: 8px;
-  top: 0px;
-  background: #F6F6F6;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  box-sizing: border-box;
-  box-shadow: 6px 6px 16px
-  rgba(224, 224, 224, 0.6),
-  -6px -6px 16px
-  rgba(255, 255, 255, 0.77);
-}
-.shrift__help {
+.icon__help {
   font-family: Gilroy;
   font-style: normal;
   font-weight: 300;
@@ -246,8 +232,44 @@ position: relative;
   display: flex;
   align-items: center;
   text-align: center;
-  margin-top: 1px;
+  
 }
+.icon__item1 {
+  position: absolute;
+  width: 166px;
+  height: 240px;
+  left: 110px;
+  top: 1635px;
+}
+.icon__item2 {
+  position: absolute;
+  width: 166px;
+  height: 240px;
+  left: 355px;
+  top: 1635px;
+}
+.icon__item3 {
+  position: absolute;
+  width: 166px;
+  height: 240px;
+  left: 600px;
+  top: 1635px;
+}
+.icon__item4 {
+  position: absolute;
+  width: 166px;
+  height: 240px;
+  left: 845px;
+  top: 1635px;
+}
+.icon__item5 {
+  position: absolute;
+  width: 166px;
+  height: 240px;
+  left: 1090px;
+  top: 1635px;
+}
+
   ul{
 
 }
