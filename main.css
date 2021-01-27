@@ -75,7 +75,7 @@ a{
   width: 1366px;
   display: flex;
   margin: 0px auto;
-  justify-content: space-between;
+  /* justify-content: space-around; */
   margin: 0px auto;
 }
 
@@ -171,7 +171,7 @@ a{
   width: 1366px;
   display: flex;
   margin: 0px auto;
-  justify-content: space-between;
+  /* justify-content: space-around; */
   margin: 0px auto;
 }
 .heart{
