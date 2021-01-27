@@ -68,6 +68,8 @@ a{
 .nav-list{
   display: flex;
   justify-content: center;
+  align-items: center;
+  
 }
 .life{
   width: 1366px;
