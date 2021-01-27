@@ -76,7 +76,7 @@ a{
 .life{
   width: 1366px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
   margin: 0px auto;
 }
 .save-life__name{
