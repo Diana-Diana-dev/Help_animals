@@ -191,7 +191,7 @@ a{
   color: #242424;
 }
 .heart-big__text2{
-  
+
   width: 466px;
   height: 88px;
   left: 693px;
@@ -204,12 +204,14 @@ a{
   color: #242424;
 }
 .icon {
+width: 1366px;
 display: flex;
 justify-content: space-around;
-margin-top: 1px;
+margin-top: 0px фauto;
+position: relative;
 }
 .icon__item{
-  position: absolute;
+
   width: 150px;
   height: 150px;
   left: 8px;
@@ -228,7 +230,6 @@ margin-top: 1px;
   font-weight: 300;
   font-size: 28px;
   line-height: 24px;
-  position: absolute;
   width: 368px;
   height: 24px;
   left: 0px;
