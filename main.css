@@ -186,7 +186,7 @@ a{
   left: 0px;
   background-color: #FFFFFF;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   margin: 0px auto;
 
@@ -237,7 +237,7 @@ a{
 max-width: 1366px;
 display: flex;
 justify-content: space-around;
-margin-top: 0px фauto;
+margin-top: 0px auto;
 }
 .icon__help {
   font-family: Gilroy;
