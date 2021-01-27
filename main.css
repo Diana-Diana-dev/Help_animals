@@ -186,7 +186,7 @@ a{
   left: 0px;
   background-color: #FFFFFF;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
   margin: 0px auto;
 
