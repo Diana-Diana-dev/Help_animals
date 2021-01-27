@@ -80,6 +80,7 @@ a{
 }
 
 .save-life__name{
+  position: absolute;
   font-family: Gilroy;
   font-style: normal;
   font-weight: bold;
@@ -95,6 +96,7 @@ a{
 
 }
 .save-life__blag{
+  position: absolute;
   font-family: Gilroy;
   font-style: normal;
   font-weight: 300;
@@ -107,6 +109,7 @@ a{
   top: 243px;
   }
 .save-life__target{
+  position: absolute;
   font-family: Gilroy;
   font-style: normal;
   font-weight: 600;
@@ -119,6 +122,7 @@ a{
   top: 273px;
   }
 .save-life__lasttime{
+  position: absolute;
   font-family: Gilroy;
   font-style: normal;
   font-weight: 600;
@@ -131,6 +135,7 @@ a{
   top: 360px;
 }
 .save-life__btn{
+  position: absolute;
   font-family: Gilroy;
   font-style: normal;
   font-weight: 500;
@@ -187,7 +192,7 @@ a{
 
 }
 .heart-big__name{
-
+  position: absolute;
   width: 466px;
   height: 94px;
   left: 693px;
@@ -203,7 +208,7 @@ a{
   color: #C78100;
 }
 .heart-big__text1{
-
+  position: absolute;
   width: 466px;
   height: 155px;
   left: 693px;
@@ -216,7 +221,7 @@ a{
   color: #242424;
 }
 .heart-big__text2{
-
+  position: absolute;
   width: 466px;
   height: 88px;
   left: 693px;
