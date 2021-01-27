@@ -144,7 +144,7 @@ a{
 }
 .save-life__dog{
 
-  background: url("https://diana-diana-dev.github.io/Help_animals/pictures/dog1.png") right top;
+  /*right top;*/
   border-radius: 0px 0px 8px 8px;
   width: 718px;
   height: 713px;
@@ -165,7 +165,14 @@ a{
   height: 469px;
   left: 607px;
   top: 470px;
-  background: url("https://diana-diana-dev.github.io/Help_animals/pictures/cat1.png")
+/*  background: url("https://diana-diana-dev.github.io/Help_animals/pictures/cat1.png")*/
+}
+.save{
+  width: 1366px;
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-between;
+  margin: 0px auto;
 }
 .heart{
   width: 1366px;
