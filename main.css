@@ -162,7 +162,7 @@ a{
   position: relative;
 }
 .heart-big__name{
-  position: absolute;
+
   width: 466px;
   height: 94px;
   left: 693px;
@@ -178,7 +178,7 @@ a{
   color: #C78100;
 }
 .heart-big__text1{
-  position: absolute;
+
   width: 466px;
   height: 155px;
   left: 693px;
@@ -191,7 +191,7 @@ a{
   color: #242424;
 }
 .heart-big__text2{
-  position: absolute;
+  
   width: 466px;
   height: 88px;
   left: 693px;
