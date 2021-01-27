@@ -69,6 +69,7 @@ a{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 1;
 }
 
 .life{
@@ -76,7 +77,6 @@ a{
   display: flex;
   margin: 0px auto;
   /* justify-content: space-around; */
-  margin: 0px auto;
 }
 
 .save-life__name{
@@ -148,7 +148,7 @@ a{
   top: cals(50%-32px/2);
 }
 .save-life__dog{
-
+  position: absolute;
   /*right top;*/
   border-radius: 0px 0px 8px 8px;
   width: 718px;
