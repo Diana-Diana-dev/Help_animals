@@ -152,9 +152,14 @@ a{
   justify-content: space-around;
 }
 .heart{
+  width: 1366px;
+  height: 650px;
+  top:834px;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: space-around;
-  margin-top: 1px;
+  margin: 0px auto;
+  position: relative;
 }
 .heart-big__name{
   position: absolute;
