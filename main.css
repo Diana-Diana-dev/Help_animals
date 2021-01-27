@@ -80,7 +80,7 @@ a{
 .save-life{
   width: 1366px;
   display: flex;
-  position: absolute;
+  position: relative;
 }
 .save-life__name{
   font-family: Gilroy;
@@ -146,6 +146,7 @@ a{
   top: cals(50%-32px/2);
 }
 .save-life__dog{
+  position: absolute;
   background: url("https://diana-diana-dev.github.io/Help_animals/pictures/dog1.png");
   border-radius: 0px 0px 8px 8px;
   width: 718px;
