@@ -161,14 +161,16 @@ a{
   background: url("https://diana-diana-dev.github.io/Help_animals/pictures/cat1.png")
 }
 .heart{
+  position: absolute;
   width: 1366px;
   height: 650px;
   top:834px;
+  left: 0px;
   background-color: #FFFFFF;
   display: flex;
   justify-content: space-around;
   margin: 0px auto;
-  position: relative;
+  
 }
 .heart-big__name{
 
@@ -232,7 +234,7 @@ position: relative;
   display: flex;
   align-items: center;
   text-align: center;
-  
+
 }
 .icon__item1 {
   position: absolute;
