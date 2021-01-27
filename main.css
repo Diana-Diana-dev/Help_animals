@@ -80,12 +80,15 @@ a{
   font-weight: bold;
   font-size: 72px;
   line-height: 87px;
+  display: flex;
+  align-items: center;
   color: #242424;
   position: absolute;
   width: 659px;
   height: 77px;
   left: 110px;
   top: 164px;
+
 }
 .save-life__blag{
   font-family: Gilroy;
