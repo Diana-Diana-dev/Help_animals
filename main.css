@@ -80,7 +80,7 @@ a{
   /* justify-content: space-around; */
 }
 .save-life{
-  z-index: 1;
+
 }
 
 .save-life__name{
@@ -95,6 +95,7 @@ a{
   height: 77px;
   left: 110px;
   top: 164px;
+  z-index: 1;
 
 }
 .save-life__blag{
@@ -109,6 +110,7 @@ a{
   height: 18px;
   left: 110px;
   top: 243px;
+  z-index: 1;
   }
 .save-life__target{
   position: absolute;
@@ -122,6 +124,7 @@ a{
   height: 44px;
   left: 110px;
   top: 273px;
+  z-index: 1;
   }
 .save-life__lasttime{
   position: absolute;
@@ -158,6 +161,7 @@ a{
   left: 538px;
   top: 0px;
   background: url("https://diana-diana-dev.github.io/Help_animals/pictures/dog1.png");
+  padding-right: 50px;
 }
 .save-life__i-will{
   position: absolute;
