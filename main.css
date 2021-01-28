@@ -79,7 +79,6 @@ a{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1366px;
   margin: 0px auto;
   z-index: 1;
 }
