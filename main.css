@@ -394,7 +394,6 @@ footer{
 
   max-width: 1366px;
   height: 117px;
-  top:
   left: 0px;
   margin: o auto;
   background-color:#E5E5E5;
@@ -404,7 +403,7 @@ footer{
     position: absolute;
     display: flex;
 }
-.menu-footer{
+.menu-footer2{
     position: absolute;
     display: flex;
 }
