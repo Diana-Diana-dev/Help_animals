@@ -297,9 +297,9 @@ a{
   color: #242424;
 }
 .ic{
-  display: block;
+  /* display: block;
   max-width: 1366px;
-  margin-top: 0px auto;
+  margin-top: 0px auto;*/
 }
 .icon {
 position: absolute;
