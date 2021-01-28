@@ -50,29 +50,26 @@ body {
 }
 
 .body-color{
-  background-color: #F6F6F6
+  background-color: #E5E5E5;
 }
 header{
   font-family: 'Gilroy', serif;
   max-width: 1366px;
   margin: 0 auto;
+  background-color: #E5E5E5;
 }
-footer{
-  font-family: 'Gilroy', serif;
-  max-width: 1366px;
-  margin: 0 auto;
-  background-color: #F6F6F6
-}
+
 .nav{
   width: 1366px;
   margin: 0px auto;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  text-decoration: none;
 }
 a{
   color: black;
-  text-decoration: none;
+
 }
 .nav-list{
   display: flex;
@@ -370,10 +367,137 @@ margin-top: 0px auto;
   left: 0px;
   top: 1955px;
 }
-
-  ul{
-
+footer{
+  font-family: 'Gilroy', serif;
+  max-width: 1366px;
+  margin: 0 auto;
 }
+.menu{
+
+  max-width: 1366px;
+  height: 117px;
+  top:
+  left: 0px;
+  margin: o auto;
+  background-color:#E5E5E5;
+  display: flex;
+}
+.menu-footer{
+    position: absolute;
+    display: flex;
+}
+.menu-footer{
+    position: absolute;
+    display: flex;
+}
+.menu-footer__home{
+  position: absolute;
+  width: 150px;
+  height: 17px;
+  left: 110px;
+  top: 8117px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: 474747;
+}
+.menu-footer__cash{
+  position: absolute;
+  width: 166px;
+  height: 17px;
+  left: 300px;
+  top: 8117px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: 474747;
+}
+.menu-footer__things{
+  position: absolute;
+  width: 228px;
+  height: 17px;
+  left: 506px;
+  top: 8117px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: 474747;
+}
+.menu-footer__car{
+  position: absolute;
+  width: 83px;
+  height: 17px;
+  left: 774px;
+  top: 8117px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: 474747;
+}
+.menu-footer__volonter{
+  position: absolute;
+  width: 94px;
+  height: 17px;
+  left: 897px;
+  top: 8117px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: 474747;
+}
+.menu-footer2__about-us{
+  position: absolute;
+  width: 40px;
+  height: 16px;
+  left: 1113px;
+  top: 8117px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: 474747;
+}
+.menu-footer2__contakts{
+  position: absolute;
+  width: 61px;
+  height: 16px;
+  left: 1195px;
+  top: 8117px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: 474747;
+}
+
+
+
   li{
 
 
