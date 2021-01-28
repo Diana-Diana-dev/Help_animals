@@ -163,6 +163,7 @@ a{
   top: 243px;
   z-index: 1;
   padding-top: 50px;
+  padding-bottom: 30px;
   }
 .save-life__target{
   position: absolute;
