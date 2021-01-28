@@ -367,6 +367,24 @@ margin-top: 0px auto;
   left: 0px;
   top: 1955px;
 }
+
+
+
+
+
+
+
+
+
+.thanks{
+  position: absolute;
+  margin: 0 auto;
+  width: 1366px;
+  height: 741px;
+  left: 0px;
+  top: 7336px;
+  background: url("https://diana-diana-dev.github.io/Help_animals/pictures/Group67.png");
+}
 footer{
   font-family: 'Gilroy', serif;
   max-width: 1366px;
