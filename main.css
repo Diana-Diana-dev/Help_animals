@@ -303,7 +303,10 @@ a{
 }
 .icon {
 position: absolute;
-max-width: 1366px;
+width: 1146px;
+height: 311px;
+top: 1564px;
+left: 110px;
 display: flex;
 justify-content: space-around;
 margin-top: 0px auto;
