@@ -96,7 +96,59 @@ a{
   line-height: 19px;
   color: #242424;
 }
-
+.nav-list__item2{
+  position: absolute;
+  left: 0%;
+  right: 1.14%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #242424;
+}
+.nav-list__item3{
+  position: absolute;
+  left: 0%;
+  right: 6.25%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #242424;
+}
+.nav-list__item4{
+  position: absolute;
+  left: 0%;
+  right: 1.37%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #242424;
+}
+.nav-list__item5{
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  left: 1096px;
+  top: 33px;
+}
+.nav-list__item6{
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  left: 1005px;
+  top: 33px;
+}
 .life{
   width: 1366px;
   display: flex;
