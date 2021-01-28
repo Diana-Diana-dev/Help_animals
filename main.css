@@ -154,14 +154,15 @@ a{
   font-family: Gilroy;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 17px;
   color: #6B6B6B;
   width: 659px;
   height: 18px;
   left: 110px;
   top: 243px;
   z-index: 1;
+  padding-top: 50px;
   }
 .save-life__target{
   position: absolute;
@@ -195,7 +196,7 @@ a{
   position: absolute;
   width: 183px;
   height: 42px;
-  left: 100px;
+  left: 95px;
   top: 520px;
   z-index: 1;
   /* top: cals(50%-32px/2); */
