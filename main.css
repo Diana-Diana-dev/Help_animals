@@ -263,8 +263,9 @@ margin-top: 0px auto;
   left: 0px;
   top: 0px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
+  
 
 }
 .icon__item1 {
