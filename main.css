@@ -308,6 +308,7 @@ justify-content: space-around;
 margin-top: 0px auto;
 }
 .icon__help {
+  position: absolute;
   font-family: Gilroy;
   font-style: normal;
   font-weight: 300;
@@ -315,11 +316,11 @@ margin-top: 0px auto;
   line-height: 24px;
   width: 368px;
   height: 24px;
-  left: 0px;
-  top: 0px;
-  display: flex;
+  left: 499px;
+  top: 1564px;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
 
 
 }
