@@ -192,7 +192,13 @@ a{
   direction: row;
   /* align-items: center; */
   margin: 0px auto;
-
+}
+.heart-big__dogcat{
+  position: absolute;
+  width: 628px;
+  height: 541px;
+  top:888px;
+  left: 0px;
 }
 .heart-big__name{
   position: absolute;
