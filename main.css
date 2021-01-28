@@ -101,6 +101,8 @@ a{
   font-weight: bold;
   font-size: 72px;
   line-height: 87px;
+  display: flex;
+  align-items: center;
   color: #242424;
   width: 659px;
   height: 77px;
