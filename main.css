@@ -83,6 +83,19 @@ a{
   margin: 0px auto;
   z-index: 1;
 }
+.nav-list__item1 {
+  position: absolute;
+  left: 0%;
+  right: 4.44%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #242424;
+}
 
 .life{
   width: 1366px;
