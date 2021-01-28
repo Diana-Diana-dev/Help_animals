@@ -52,8 +52,11 @@ body {
 .body-color{
   background-color: #F6F6F6
 }
-.header-content__nav{
-
+header{
+  font-family: 'Gilroy', serif;
+  max-width: 1366px;
+  margin: 0 auto;
+  
 }
 .nav{
   width: 1366px;
