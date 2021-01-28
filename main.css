@@ -79,6 +79,9 @@ a{
   margin: 0px auto;
   /* justify-content: space-around; */
 }
+.save-life{
+  z-index: 1;
+}
 
 .save-life__name{
   position: absolute;
@@ -188,7 +191,7 @@ a{
   left: 0px;
   background-color: #FFFFFF;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   /* align-items: center; */
   margin: 0px auto;
 
