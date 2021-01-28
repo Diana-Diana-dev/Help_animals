@@ -372,8 +372,101 @@ margin-top: 0px auto;
 
 
 
-
-
+ .about{
+   font-family: 'Gilroy', serif;
+   display: block;
+   max-width: 1366px;
+   margin: 0 auto;
+   background-color: #E5E5E5;
+   }
+ .about__us{
+   position: absolute;
+   width: 174px;
+   height: 32px;
+   left: 596px;
+   top: 6798px;
+   font-family: Gilroy;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 24px;
+   text-align: center;
+   color: #242424
+ }
+ .about__we{
+   position: absolute;
+   width: 680px;
+   height: 96px;
+   left: 402px;
+   top: 6854px;
+   font-family: Gilroy;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+   color: #242424
+ }
+ .about__contacts{
+   position: absolute;
+   width: 96px;
+   height: 26px;
+   left: 402px;
+   top: 6974px;
+   font-family: Gilroy;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 22px;
+   line-height: 26px;
+   color: #242424
+ }
+ .about__call{
+   position: absolute;
+   width: 680px;
+   height: 131px;
+   left: 402px;
+   top: 7024px;
+   font-family: Gilroy;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 22px;
+   color: #242424
+ }
+ .about__networks{
+   position: absolute;
+   width: 348px;
+   height: 22px;
+   left: 402px;
+   top: 7195px;
+   font-family: Gilroy;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 22px;
+   color: #6B6B6B;
+ }
+ .about2{
+   position: absolute;
+   display: flex;
+   width: 146px;
+   height: 63px;
+   left: 402px;
+   top: 7233px;
+   }
+   .about2__vk{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 402px;
+    top: 7233px;
+   }
+   .about2__insta{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 485px;
+    top: 7233px;
+   }
 
 
 
