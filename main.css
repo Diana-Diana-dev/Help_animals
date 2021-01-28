@@ -246,6 +246,10 @@ a{
   line-height: 140%;
   color: #242424;
 }
+.ic{
+  display: block;
+  max-width: 1366px;
+}
 .icon {
 max-width: 1366px;
 display: flex;
@@ -265,7 +269,7 @@ margin-top: 0px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 
 }
 .icon__item1 {
