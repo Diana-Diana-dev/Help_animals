@@ -142,12 +142,12 @@ a{
   font-size: 72px;
   line-height: 87px;
   color: #242424;
-  width: 659px;
+  width: 650px;
   height: 77px;
   left: 110px;
   top: 164px;
   z-index: 1;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 .save-life__blag{
   position: absolute;
