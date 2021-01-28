@@ -259,6 +259,7 @@ a{
 .ic{
   display: block;
   max-width: 1366px;
+  margin-top: 0px auto;
 }
 .icon {
 max-width: 1366px;
