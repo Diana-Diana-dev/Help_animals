@@ -150,16 +150,11 @@ a{
   z-index: 2;
 }
 .save-life__btn{
-  position: relative;
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 40px;
-  color: #242424;
-  height: 32px;
-  left: 34px;
-  right: 31px;
+  position: absolute;
+  width: 183px;
+  height: 42px;
+  left: 110px;
+  top: 520px;
   /* top: cals(50%-32px/2); */
 }
 .save-life__dog{
