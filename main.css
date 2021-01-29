@@ -683,10 +683,10 @@ margin-top: 0px auto;
 
    .gallery3{
      position: absolute;
+     width: 368px;
      height: 555px;
-     left: 0%;
-     right: 0%;
-     top: 0%;
+     left: 110px;
+     top: 2531px;
      background: #F6F6F6;
      box-shadow: 6px 6px 16px
      rgba(163, 163, 163, 0.6),
