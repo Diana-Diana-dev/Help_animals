@@ -481,6 +481,14 @@ margin-top: 0px auto;
   position: absolute;
 
  }
+ .first-gallery1{
+   position: absolute;
+   width: 368px;
+   height: 675px;
+   left: 110px;
+   top: 2531px;
+   opacity: 0.5;
+ }
  .gallery1{
    position: absolute;
    height: 555px;
