@@ -372,6 +372,73 @@ margin-top: 0px auto;
 
 
 
+
+ .home{
+   display: flex;
+   margin: 0 auto;
+ }
+ .home-love{
+   display: block;
+ }
+ .home-time{
+   display: block;
+ }
+ .home-love__name{
+   position: absolute;
+   width: 378px;
+   height: 32px;
+   left: 284px;
+   top: 2167px;
+   font-family: Gilroy;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 24px;
+   display: flex;
+   align-items: center;
+   color: #242424
+ }
+ .home-love__text{
+   position: absolute;
+   width: 389px;
+   height: 132px;
+   left: 284px;
+   top: 2219px;
+   font-family: Gilroy;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 22px;
+   color:  #242424
+ }
+ .home-time__name{
+   position: absolute;
+   width: 378px;
+   height: 32px;
+   left: 773px;
+   top: 2167px;
+   font-family: Gilroy;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 24px;
+   display: flex;
+   align-items: center;
+   color: #242424
+ }
+ .home-time__text{
+   position: absolute;
+   width: 389px;
+   height: 132px;
+   left: 770px;
+   top: 2219px;
+   font-family: Gilroy;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 22px;
+   color:  #242424
+ }
  .about{
    font-family: 'Gilroy', serif;
    display: block;
