@@ -526,6 +526,15 @@ margin-top: 0px auto;
     text-align: center;
     color: #242424;
   }
+  .gallery1__line{
+    position: absolute;
+    height: 0px;
+    left: 4.62%;
+    right: 4.35%;
+    top: 410px;
+    opacity: 0.5;
+    border: 1px solid #D6D6D6;
+  }
   .gallery1__boy-girl{
     position: absolute;
     height: 20px;
@@ -595,7 +604,13 @@ margin-top: 0px auto;
     left: 1146px;
     top: 0px
   }
-
+  .second-gallery2{
+    position: absolute;
+    width: 368px;
+    height: 675px;
+    left: 499px;
+    top: 2531px;
+  }
   .gallery2{
     position: absolute;
     height: 555px;
@@ -632,6 +647,15 @@ margin-top: 0px auto;
      align-items: center;
      text-align: center;
      color: #242424;
+   }
+   .gallery2__line{
+     position: absolute;
+     height: 0px;
+     left: 4.62%;
+     right: 4.35%;
+     top: 410px;
+     opacity: 0.5;
+     border: 1px solid #D6D6D6;
    }
    .gallery2__boy-girl{
      position: absolute;
@@ -709,6 +733,14 @@ margin-top: 0px auto;
      left: 80px;
      top: 574;
    }
+   .third-gallery3{
+     position: absolute;
+     width: 368px;
+     height: 675px;
+     left: 887px;
+     top: 2531px;
+     opacity: 0.5;
+   }
    .gallery3{
      position: absolute;
      height: 555px;
@@ -745,6 +777,15 @@ margin-top: 0px auto;
       align-items: center;
       text-align: center;
       color: #242424;
+    }
+    .gallery3__line{
+      position: absolute;
+      height: 0px;
+      left: 4.62%;
+      right: 4.35%;
+      top: 410px;
+      opacity: 0.5;
+      border: 1px solid #D6D6D6;
     }
     .gallery3__boy-girl{
       position: absolute;
