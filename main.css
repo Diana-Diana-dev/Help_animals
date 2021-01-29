@@ -1018,6 +1018,156 @@ margin-top: 0px auto;
       left: 0px;
       top: 4146px;
     }
+    .everything{
+      position: absolute;
+      width: 680px;
+      height: 690px;
+      left: 402px;
+      top: 4312px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+    }
+    .food__name{
+      position: static;
+      width: 680px;
+      height: 32px;
+      left: 0px;
+      top: 0px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      color: #242424;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 24px 0px;
+    }
+    .food__text{
+      position: static;
+      width: 680px;
+      height: 156px;
+      left: 0px;
+      top: 56px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #242424;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 24px 0px;
+    }
+    .medicine__name{
+      position: static;
+      width: 680px;
+      height: 32px;
+      left: 0px;
+      top: 0px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      color: #242424;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 24px 0px;
+    }
+    .medicine__text{
+      position: static;
+      width: 680px;
+      height: 66px;
+      left: 0px;
+      top: 56px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #242424;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 24px 0px;
+    }
+    .things__name{
+      position: static;
+      width: 680px;
+      height: 32px;
+      left: 0px;
+      top: 0px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      color: #242424;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 24px 0px;
+    }
+    .things__text{
+      position: static;
+      width: 680px;
+      height: 164px;
+      left: 0px;
+      top: 56px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #242424;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 24px 0px;
+    }
+    .giv-link{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      position: absolute;
+      width: 217px;
+      height: 40px;
+      left: 402px;
+      top: 4962px;
+    }
+    .giv-link__where{
+      position: static;
+      height: 40px;
+      left: 0px;
+      right: 0px;
+      top: calc(50% - 40px/2);
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      text-decoration-line: underline;
+      color: #AD7F00;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 0px 10px;
+    }
 
 
  .about{
