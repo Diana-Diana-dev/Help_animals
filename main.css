@@ -853,22 +853,14 @@ margin-top: 0px auto;
    line-height: 22px;
    color: #6B6B6B;
  }
- .about2{
-   position: absolute;
-   display: flex;
-   width: 146px;
-   height: 63px;
-   left: 402px;
-   top: 7233px;
-   }
-   .about2__vk{
+   .about__vk{
     position: absolute;
     width: 63px;
     height: 63px;
     left: 402px;
     top: 7233px;
    }
-   .about2__insta{
+   .about__insta{
     position: absolute;
     width: 63px;
     height: 63px;
