@@ -857,6 +857,41 @@ margin-top: 0px auto;
       left: 146px;
       top: 0px;
     }
+   .social{
+     position: absolute;
+     width: 779px;
+     height: 63px;
+     top: 3270px;
+     left: 304px;
+   }
+   .social__text{
+     position: absolute;
+     width: 583px;
+     height: 48px;
+     left: 304px;
+     top: 3278px;
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 24px;
+     color: #242424;
+   }
+   .social__vk{
+     position: absolute;
+     width: 63px;
+     height: 63px;
+     left: 925px;
+     top: 3270px;
+   }
+   .social__insta{
+     position: absolute;
+     width: 63px;
+     height: 63px;
+     left: 1020px;
+     top: 3270px;
+   }
+
 
 
  .about{
