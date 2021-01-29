@@ -548,7 +548,7 @@ margin-top: 0px auto;
     display: flex;
     color: #242424;
   }
-  .gallery1-conteiner{
+  /* .gallery1-conteiner{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -559,7 +559,7 @@ margin-top: 0px auto;
     left: 17px;
     top: 508px;
 
-  }
+  }*/
   .gallery1-conteiner__link{
     position: static;
     height: 40px;
@@ -579,6 +579,13 @@ margin-top: 0px auto;
     order: 0;
     flex-grow: 0;
     margin: 0px 10px;
+  }
+  .gallery1__btn{
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 1146px;
+    top: 0px
   }
 
   .gallery2{
@@ -648,7 +655,7 @@ margin-top: 0px auto;
      display: flex;
      color: #242424;
    }
-   .gallery2-conteiner{
+   /* .gallery2-conteiner{
      display: flex;
      flex-direction: row;
      align-items: center;
@@ -659,7 +666,7 @@ margin-top: 0px auto;
      left: 17px;
      top: 508px;
 
-   }
+   }*/
    .gallery2-conteiner__link{
      position: static;
      height: 40px;
@@ -680,13 +687,26 @@ margin-top: 0px auto;
      flex-grow: 0;
      margin: 0px 10px;
    }
-
+   .gallery2__btn1{
+     position: absolute;
+     width: 209px;
+     height: 42px;
+     left: 80px;
+     top: 574px;
+   }
+   .gallery2__btn2{
+     position: absolute;
+     width: 209px;
+     height: 42px;
+     left: 80px;
+     top: 574;
+   }
    .gallery3{
      position: absolute;
-     width: 368px;
      height: 555px;
-     left: 110px;
-     top: 2531px;
+     left: 0%;
+     right: 0%;
+     top: 0px;
      background: #F6F6F6;
      box-shadow: 6px 6px 16px
      rgba(163, 163, 163, 0.6),
@@ -748,7 +768,7 @@ margin-top: 0px auto;
       display: flex;
       color: #242424;
     }
-    .gallery3-conteiner{
+    /* .gallery3-conteiner{
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -759,7 +779,7 @@ margin-top: 0px auto;
       left: 17px;
       top: 508px;
 
-    }
+    }*/
     .gallery3-conteiner__link{
       position: static;
       height: 40px;
@@ -780,6 +800,13 @@ margin-top: 0px auto;
       flex-grow: 0;
       margin: 0px 10px;
 
+    }
+    .gallery3__btn{
+      position: absolute;
+      width: 77px;
+      height: 77px;
+      left: 146px;
+      top: 0px;
     }
 
 
