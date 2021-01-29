@@ -1011,6 +1011,13 @@ margin-top: 0px auto;
       text-decoration-line: underline;
       color: #AD7F00;
     }
+    .bord3{
+      position: absolute;
+      width: 1366px;
+      height: 126px;
+      left: 0px;
+      top: 4146px;
+    }
 
 
  .about{
