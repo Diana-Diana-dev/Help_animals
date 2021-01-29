@@ -471,10 +471,105 @@ margin-top: 0px auto;
     font-size: 20px;
     line-height: 40px;
     display: flex;
+    align-items: center;
     text-decoration-line: underline;
     color: #AD7F00;
   }
 
+  .gallery2{
+    position: absolute;
+    height: 555px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    background: #F6F6F6;
+    box-shadow: 6px 6px 16px
+    rgba(163, 163, 163, 0.6),
+    -8px -8px -16px #FFFFFF,
+    inset 4px 4px 16px rgba(203, 203, 203, 0.25);
+    border-radius: 5px;
+  }
+   .gallery2__img{
+     position: absolute;
+     height: 356px;
+     left: 4.62%;
+     right: 4.35%;
+     top: 16px;
+     background: url('https://diana-diana-dev.github.io/Help_animals/pictures/image15.png');
+   }
+   .gallery2__name{
+     position: absolute;
+     height: 20px;
+     left: 4.62%;
+     right: 4.35%;
+     top: 380px;
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 22px;
+     line-height: 20px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     color: #242424;
+   }
+   .gallery2__boy-girl{
+     position: absolute;
+     height: 20px;
+     left: 4.62%;
+     right: 4.35%;
+     top: 418px;
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 20px;
+     display: flex;
+     align-items: center;
+     color: #6B6B6B;
+     }
+   .gallery2__text{
+     position: absolute;
+     height: 64px;
+     left: 4.62%;
+     right: 4.35%;
+     top: 444px;
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 20px;
+     display: flex;
+     color: #242424;
+   }
+   .gallery2-conteiner{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     position: absolute;
+     width: 108px;
+     height: 40px;
+     left: 17px;
+     top: 508px;
+
+   }
+   .gallery2-conteiner__link{
+     position: static;
+     height: 40px;
+     left: 0px;
+     right: 0px;;
+     top: calc(50% - 40px/2);
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 40px;
+     display: flex;
+     align-items: center;
+     text-decoration-line: underline;
+     color: #AD7F00;
+   }
  .our-animals{
    display: flex;
    margin: 0 auto;
