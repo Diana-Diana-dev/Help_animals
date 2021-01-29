@@ -371,8 +371,72 @@ margin-top: 0px auto;
 }
 
 
-
-
+ .our-animals{
+   display: flex;
+   margin: 0 auto;
+ }
+ .our-animals__name{
+   position: absolute;
+   width: 368px;
+   height: 24px;
+   left: 499px;
+   top: 2423px;
+   font-family: Gilroy;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 28px;
+   line-height: 24px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: #242424
+ }
+ .link-animals{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   position: absolute;
+   width: 204px;
+   height: 40px;
+   left: 561px;
+   top: 2471px;
+ }
+ .link-animals__text{
+   position: static;
+   height: 40px;
+   left: 0px;
+   right: 0px;
+   top: cals(50%-40px/2);
+   font-family: Gilroy;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 40px;
+   display: flex;
+   align-items: center;
+   text-decoration-line: underline;
+   color: #AD7F00;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 0px 10px;
+ }
+ .go-animals{
+   width: 40px;
+   height: 40px;
+   left: 765px;
+   top: 2471px;
+   position: absolute;
+ }
+ .go-animals__icon{
+   position: absolute;
+   left: 33.33%;
+   right: 25%;
+   top: 12.5%;
+   bottom: 12.5%;
+   background: #AD7F00;
+ }
  .home{
    display: flex;
    margin: 0 auto;
