@@ -322,12 +322,12 @@ background-color: #E5E5E5;
 }
   .icon {
   position: absolute;
-  max-width: 1366px;
+  max-width: 11466px;
   height: 240px;
   top: 1635px;
-  left: 0px;
+  left: 110px;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   margin-top: 0px auto;
 
   }
