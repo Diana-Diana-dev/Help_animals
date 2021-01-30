@@ -292,20 +292,11 @@ background-color: #E5E5E5;
   color: #242424;
 }
 .ic{
-  /* display: block;
+
   max-width: 1366px;
-  margin-top: 0px auto;*/
+  margin-top: 0px auto;
 }
-.icon {
-position: absolute;
-width: 1146px;
-height: 311px;
-top: 1564px;
-left: 110px;
-display: flex;
-justify-content: space-around;
-margin-top: 0px auto;
-}
+
 .icon__help {
   position: absolute;
   font-family: Gilroy;
@@ -320,7 +311,17 @@ margin-top: 0px auto;
   /* display: flex;
   justify-content: center;
   align-items: center;*/
+  .icon {
+  position: absolute;
+  width: 1366px;
+  height: 240px;
+  top: 1635px;
+  left: 110px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px auto;
 
+  }
 
 }
 .icon__item1 {
