@@ -898,6 +898,14 @@ background-color: #E5E5E5;
      left: 1020px;
      top: 3270px;
    }
+   .finance{
+     position: absolute;
+     background: #FFFFFF;
+     width: 1366px;
+     height: 716px;
+     left: 0px;
+     top: 3397px;
+   }
    .bord2{
      position: absolute;
      width: 1366px;
@@ -905,6 +913,7 @@ background-color: #E5E5E5;
      left: 0px;
      top: 3427px;
    }
+
    .finhelp{
      position: absolute;
      width: 368px;
