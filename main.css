@@ -1208,6 +1208,13 @@ margin-top: 0px auto;
       line-height: 22px;
       color: #242424;
     }
+    .autocar-btn{
+      position: absolute;
+      width: 221px;
+      height: 42px;
+      left: 402px;
+      top: 5378px;
+    }
     .bord5{
       position: absolute;
       width: 1366px;
@@ -1215,16 +1222,56 @@ margin-top: 0px auto;
       left: 0px;
       top: 5492px;
     }
-
-
-
-     .autocar-btn{
+    .dogplay{
+      position: absolute;
+      width: 616px;
+      height: 521px;
+      left: 0px;
+      top: 5608px;
+    }
+    .volonterstvo{
+      position: absolute;
+      width: 466px;
+      height: 296px;
+      left: 693px;
+      top: 5721px;
+    }
+    .volonterstvo__name{
+      position: absolute;
+      width: 466px;
+      height: 24px;
+      left: 693px;
+      top: 5721px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 24px;
+      color: #242424
+    }
+    .volonterstvo__text{
+      position: absolute;
+      width: 466px;
+      height: 182px;
+      left: 693px;
+      top: 5769px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #242424
+    }
+     .volonterstvo__btn{
        position: absolute;
        width: 221px;
        height: 42px;
-       left: 402px;
-       top: 5378px;
+       left: 693px;
+       top: 5793px; 
      }
+
+
+
 
  .about{
    font-family: 'Gilroy', serif;
