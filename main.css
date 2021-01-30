@@ -296,7 +296,7 @@ background-color: #E5E5E5;
   max-width: 1366px;
   margin-top: 0px auto;
 }
-.icon1{
+.iconX{
   position: absolute;
   width: 368px;
   height: 24px;
@@ -304,7 +304,7 @@ background-color: #E5E5E5;
   top: 1564px;
 }
 
-.icon1__help {
+.iconX__help {
   position: absolute;
   width: 368px;
   height: 24px;
@@ -332,7 +332,7 @@ background-color: #E5E5E5;
 
   }
 
-}
+
 .icon__item1 {
   position: absolute;
   width: 150px;
