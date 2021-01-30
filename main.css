@@ -46,17 +46,13 @@ body {
   font-family: 'Gilroy', serif;
   max-width: 1366px;
   margin: 0 auto;
-  background-color: #FFFFFF
+  background-color: #E5E5E5;
 }
 
-/* .body-color{
-  background-color: #E5E5E5;
-}*/
 header{
   font-family: 'Gilroy', serif;
   max-width: 1366px;
   margin: 0 auto;
-
 }
 
 .nav{
