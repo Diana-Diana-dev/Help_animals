@@ -1267,9 +1267,109 @@ margin-top: 0px auto;
        width: 221px;
        height: 42px;
        left: 693px;
-       top: 5793px; 
+       top: 5793px;
      }
+     .news{
+       position: absolute;
+       width: 1366px;
+       height: 563px;
+       left: 0px;
+       top: 6179px;
+     }
+     .news__name{
+       position: absolute;
+       width: 368px;
+       height: 32px;
+       left: 499px;
+       top: 6233px;
+       font-family: Gilroy;
+       font-style: normal;
+       font-weight: 600;
+       font-size: 28px;
+       line-height: 24px;
+       display: flex;
+       align-items: center;
+       text-align: center;
+       color: #242424
+     }
+     .news__photo{
+       position: absolute;
+       width: 140px;
+       height: 140px;
+       left: 304px;
+       top: 6305;
+       background: url("https://diana-diana-dev.github.io/Help_animals/pictures/Ellipse1.png");
+     }
+     .news__text{
+       position: absolute;
+       width: 603px;
+       height: 140px;
+       left: 479px;
+       top: 6305px;
+       font-family: Gilroy;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+       line-height: 22px;
+       display: flex;
+       align-items: center;
+       color: #242424
+     }
+     .news__photo1{
+       position: absolute;
+       width: 140px;
+       height: 140px;
+       left: 304px;
+       top: 6485;
+       background: url("https://diana-diana-dev.github.io/Help_animals/pictures/Ellipse2.png");
+     }
+     .news__text1{
+       position: absolute;
+       width: 603px;
+       height: 140px;
+       left: 479px;
+       top: 6485px;
+       font-family: Gilroy;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+       line-height: 22px;
+       display: flex;
+       align-items: center;
+       color: #242424
+     }
+     .news-news{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       padding: 0px;
+       position: absolute;
+       width: 207px;
+       height: 40px;
+       left: 304px;
+       top: 6649px;
 
+     }
+      .news-news__link{
+      position: static;
+      height: 40px;
+      left: 0px;
+      right: 0px;
+      top: calc(50% - 40px/2);
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      text-decoration-line: underline;
+      color: AD7F00;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 0px 10px;
+      }
 
 
 
