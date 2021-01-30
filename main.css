@@ -1206,8 +1206,18 @@ margin-top: 0px auto;
       font-weight: normal;
       font-size: 16px;
       line-height: 22px;
-      color: #242424;  
+      color: #242424;
     }
+    .bord5{
+      position: absolute;
+      width: 1366px;
+      height: 126px;
+      left: 0px;
+      top: 5492px;
+    }
+
+
+
      .autocar-btn{
        position: absolute;
        width: 221px;
