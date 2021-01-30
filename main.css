@@ -235,7 +235,7 @@ background-color: #E5E5E5;
   height: 650px;
   top:834px;
   left: 0px;
-  background-color: #FFFFFF;
+  background: #FFFFFF;
   display: flex;
   direction: row;
   /* align-items: center; */
@@ -304,7 +304,7 @@ background-color: #E5E5E5;
   top: 1564px;
 }*/
 
-.icon__help {
+.ic__help {
   position: absolute;
   width: 368px;
   height: 24px;
