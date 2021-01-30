@@ -1175,7 +1175,46 @@ margin-top: 0px auto;
       left: 0px;
       top: 5074px;
     }
-
+    .autohelp{
+      position: absolute;
+      width: 680px;
+      height: 114px;
+      left: 402px;
+      top: 5240px;
+    }
+    .autohelp__name{
+      position: absolute;
+      width: 680px;
+      height: 24px;
+      left: 402px;
+      top: 5240px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 24px;
+      color: #242424;
+    }
+    .autohelp__text{
+      position: absolute;
+      width: 680px;
+      height: 66px;
+      left: 402px;
+      top: 5288px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #242424;  
+    }
+     .autocar-btn{
+       position: absolute;
+       width: 221px;
+       height: 42px;
+       left: 402px;
+       top: 5378px;
+     }
 
  .about{
    font-family: 'Gilroy', serif;
