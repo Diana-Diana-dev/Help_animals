@@ -291,7 +291,7 @@ background-color: #E5E5E5;
   color: #242424;
 }
 .ic{
-  /* display: block; */
+  display: flex; 
   max-width: 1366px;
   margin-top: 0px auto;
 }
