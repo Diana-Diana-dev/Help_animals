@@ -296,8 +296,15 @@ background-color: #E5E5E5;
   max-width: 1366px;
   margin-top: 0px auto;
 }
+.icon1{
+  position: absolute;
+  width: 368px;
+  height: 24px;
+  left: 499px;
+  top: 1564px;
+}
 
-.icon__help {
+.icon1__help {
   position: absolute;
   font-family: Gilroy;
   font-style: normal;
@@ -306,11 +313,13 @@ background-color: #E5E5E5;
   line-height: 24px;
   width: 368px;
   height: 24px;
-  left: 499px;
-  top: 1564px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;*/
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #242424;
+}
   .icon {
   position: absolute;
   width: 1116px;
