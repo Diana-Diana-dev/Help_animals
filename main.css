@@ -1168,6 +1168,13 @@ margin-top: 0px auto;
       flex-grow: 0;
       margin: 0px 10px;
     }
+    .bord4{
+      position: absolute;
+      width: 1366px;
+      height: 126px;
+      left: 0px;
+      top: 5074px;
+    }
 
 
  .about{
