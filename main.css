@@ -498,13 +498,13 @@ background-color: #E5E5E5;
   height: 675px;
   top: 2531px;
   left: 110px;
-  /* position: absolute; */
+  position: absolute;
   background-color: #E5E5E5;
 
 
  }
  .first-gallery1{
-   position: static;
+   position: absolute;
    width: 368px;
    height: 675px;
    left: 110px;
@@ -513,7 +513,7 @@ background-color: #E5E5E5;
    background-color: #E5E5E5;
  }
  .gallery1{
-   position: static;
+   position: absolute;
    height: 555px;
    left: 0%;
    right: 0%;
@@ -628,7 +628,7 @@ background-color: #E5E5E5;
     top: 0px
   }
   .second-gallery2{
-    position: static;
+    position: absolute;
     width: 368px;
     height: 675px;
     left: 499px;
@@ -636,7 +636,7 @@ background-color: #E5E5E5;
     background-color: #E5E5E5;
   }
   .gallery2{
-    position: static;
+    position: absolute;
     height: 555px;
     left: 0%;
     right: 0%;
@@ -759,7 +759,7 @@ background-color: #E5E5E5;
      top: 574;
    }
    .third-gallery3{
-     position: static;
+     position: absolute;
      width: 368px;
      height: 675px;
      left: 887px;
@@ -768,7 +768,7 @@ background-color: #E5E5E5;
      background-color: #E5E5E5;
    }
    .gallery3{
-     position: static;
+     position: absolute;
      height: 555px;
      left: 0%;
      right: 0%;
