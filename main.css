@@ -319,7 +319,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 368px;
   height: 24px;
-  left: 0px;
+  /* left: 0px; */
   top: 0px;
   font-family: Gilroy;
   font-style: normal;
