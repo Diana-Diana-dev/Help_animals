@@ -192,7 +192,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 183px;
   height: 42px;
-  left: 95px;
+  left: 110px;
   top: 520px;
   z-index: 1;
   /* top: cals(50%-32px/2); */
@@ -348,35 +348,35 @@ background-color: #E5E5E5;
 
 .icon__item1 {
   position: absolute;
-  width: 150px;
+  width: 166px;
   height: 240px;
-  left: 100px;
+  left: 110px;
   top: 1635px;
 }
 .icon__item2 {
   position: absolute;
-  width: 150px;
+  width: 166px;
   height: 240px;
   left: 355px;
   top: 1635px;
 }
 .icon__item3 {
   position: absolute;
-  width: 150px;
+  width: 166px;
   height: 240px;
   left: 600px;
   top: 1635px;
 }
 .icon__item4 {
   position: absolute;
-  width: 150px;
+  width: 166px;
   height: 240px;
   left: 845px;
   top: 1635px;
 }
 .icon__item5 {
   position: absolute;
-  width: 150px;
+  width: 166px;
   height: 240px;
   left: 1090px;
   top: 1635px;
