@@ -295,11 +295,12 @@ background-color: #E5E5E5;
   line-height: 140%;
   color: #242424;
 }
-.ic{
+/* .ic{
+  position: absolute;
   display: flex;
   max-width: 1366px;
   margin-top: 0px auto;
-}
+}*/
 /* .iconX{
   position: absolute;
   width: 368px;
@@ -307,13 +308,19 @@ background-color: #E5E5E5;
   left: 499px;
   top: 1564px;
 }*/
-
-.ic-help {
+.icon-help{
   position: absolute;
   width: 368px;
   height: 24px;
-  left: 550px;
+  left: 499px;
   top: 1564px;
+}
+.icon-help__name {
+  position: absolute;
+  width: 368px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
   font-family: Gilroy;
   font-style: normal;
   font-weight: 300;
