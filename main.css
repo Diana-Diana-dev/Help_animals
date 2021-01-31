@@ -237,13 +237,13 @@ background-color: #E5E5E5;
   top:834px;
   left: 0px;
   display: flex;
-  /* direction: row; */
+   direction: row; 
   /* align-items: center; */
-  margin: 0px auto;
+
   background: #FFFFFF;
 }
 .heart-big__dogcat{
-  position: absolute;
+  /* position: absolute; */
   width: 628px;
   height: 541px;
   top:888px;
