@@ -625,7 +625,7 @@ background-color: #E5E5E5;
     position: absolute;
     width: 77px;
     height: 77px;
-    left: 1146px;
+    left: 146px;
     top: 0px
   }
   .second-gallery2{
@@ -754,10 +754,10 @@ background-color: #E5E5E5;
    }
    .gallery2__btn2{
      position: absolute;
-     width: 209px;
+     width: 296px;
      height: 42px;
-     left: 80px;
-     top: 574;
+     left: 36px;
+     top: 633;
    }
    .third-gallery3{
      position: absolute;
