@@ -242,15 +242,15 @@ background-color: #E5E5E5;
   background: #FFFFFF;
 }
 .heart-big__dogcat{
-  position: absolute;
+  /* position: absolute; */
   width: 628px;
   height: 541px;
   top:888px;
   left: 0px;
-  
+
 }
 .heart-big__name{
-  position: absolute;
+  /* position: absolute; */
   width: 466px;
   height: 94px;
   left: 693px;
@@ -266,7 +266,7 @@ background-color: #E5E5E5;
   color: #C78100;
 }
 .heart-big__text1{
-  position: absolute;
+  /* position: absolute; */
   width: 466px;
   height: 155px;
   left: 693px;
@@ -279,7 +279,7 @@ background-color: #E5E5E5;
   color: #242424;
 }
 .heart-big__text2{
-  position: absolute;
+  /* position: absolute; */
   width: 466px;
   height: 88px;
   left: 693px;
