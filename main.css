@@ -509,6 +509,7 @@ background-color: #E5E5E5;
    left: 110px;
    top: 2531px;
    opacity: 0.5;
+   background-color: #E5E5E5;
  }
  .gallery1{
    position: absolute;
@@ -631,6 +632,7 @@ background-color: #E5E5E5;
     height: 675px;
     left: 499px;
     top: 2531px;
+    background-color: #E5E5E5;
   }
   .gallery2{
     position: absolute;
@@ -762,6 +764,7 @@ background-color: #E5E5E5;
      left: 887px;
      top: 2531px;
      opacity: 0.5;
+     background-color: #E5E5E5;
    }
    .gallery3{
      position: static;
