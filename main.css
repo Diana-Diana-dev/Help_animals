@@ -498,6 +498,7 @@ background-color: #E5E5E5;
   top: 2531px;
   left: 110px;
   position: absolute;
+  background-color: #E5E5E5;
 
 
  }
@@ -708,7 +709,7 @@ background-color: #E5E5E5;
      display: flex;
      color: #242424;
    }
-   /* .gallery2-conteiner{
+    .gallery2-conteiner{
      display: flex;
      flex-direction: row;
      align-items: center;
@@ -719,7 +720,7 @@ background-color: #E5E5E5;
      left: 17px;
      top: 508px;
 
-   }*/
+   }
    .gallery2-conteiner__link{
      position: static;
      height: 40px;
@@ -755,7 +756,7 @@ background-color: #E5E5E5;
      top: 574;
    }
    .third-gallery3{
-     position: static;
+     position: absolute;
      width: 368px;
      height: 675px;
      left: 887px;
@@ -763,7 +764,7 @@ background-color: #E5E5E5;
      opacity: 0.5;
    }
    .gallery3{
-     position: absolute;
+     position: static;
      height: 555px;
      left: 0%;
      right: 0%;
@@ -839,7 +840,7 @@ background-color: #E5E5E5;
       display: flex;
       color: #242424;
     }
-    /* .gallery3-conteiner{
+    .gallery3-conteiner{
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -850,7 +851,7 @@ background-color: #E5E5E5;
       left: 17px;
       top: 508px;
 
-    }*/
+    }
     .gallery3-conteiner__link{
       position: static;
       height: 40px;
