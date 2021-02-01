@@ -880,13 +880,13 @@ background-color: #E5E5E5;
       left: 146px;
       top: 580px;
     }
-   .social{
+   /* .social{ */
      position: absolute;
      width: 779px;
      height: 63px;
      top: 3270px;
      left: 304px;
-   }
+   /* } */
    .social__text{
      position: absolute;
      width: 583px;
