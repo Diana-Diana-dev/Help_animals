@@ -188,19 +188,13 @@ background-color: #E5E5E5;
   top: 360px;
   z-index: 2;
 }
-.save-life__link{
-    position: absolute;
-    width: 183px;
-    height: 42px;
-    left: 110px;
-    top: 520px;
-}
+
 .save-life__btn{
   position: absolute;
   width: 183px;
   height: 42px;
-  left: 0px;
-  top: 0px;
+  left: 100px;
+  top:52 0px;
   z-index: 1;
   /* top: cals(50%-32px/2); */
 }
