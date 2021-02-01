@@ -491,19 +491,19 @@ background-color: #E5E5E5;
   left: 561px;
 }
 
- .gallery{
-  /* display: flex; */
-  /* flex-direction: row; */
+ /* .gallery{
+  
+
   width: 1145px;
   height: 675px;
   top: 2531px;
   left: 110px;
   position: absolute;
-  /* margin-top: 0px auto; */
+
   background-color: #E5E5E5;
+ display:
 
-
- }
+ }*/
  .first-gallery1{
    position: absolute;
    width: 368px;
