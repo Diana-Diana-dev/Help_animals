@@ -614,7 +614,8 @@ background-color: #E5E5E5;
     line-height: 40px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    text-align: left;
+    /* justify-content: flex-start; */
     text-decoration-line: underline;
     color: #AD7F00;
     flex: none;
@@ -739,7 +740,8 @@ background-color: #E5E5E5;
      line-height: 40px;
      display: flex;
      align-items: center;
-     justify-content: flex-start;
+     text-align: left;
+     /* justify-content: flex-start; */
      text-decoration-line: underline;
      color: #AD7F00;
      flex: none;
@@ -872,7 +874,8 @@ background-color: #E5E5E5;
       line-height: 40px;
       display: flex;
       align-items: center;
-      justify-content: flex-start;
+      text-align: left;
+      /* justify-content: flex-start; */
       text-decoration-line: underline;
       color: #AD7F00;
       flex: none;
