@@ -751,6 +751,7 @@ background-color: #E5E5E5;
      height: 42px;
      left: 36px;
      top: 633;
+     z-index: 1;
    }
    .third-gallery3{
      position: absolute;
@@ -880,14 +881,15 @@ background-color: #E5E5E5;
       left: 146px;
       top: 580px;
     }
-   /* .social{ */
+   /* .social{ 
      position: absolute;
      width: 779px;
      height: 63px;
      top: 3270px;
      left: 304px;
-   /* } */
+    } */
    .social__text{
+     display: flex;
      position: absolute;
      width: 583px;
      height: 48px;
