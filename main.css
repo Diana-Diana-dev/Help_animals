@@ -492,14 +492,14 @@ background-color: #E5E5E5;
 }
 
  .gallery{
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
   width: 1145px;
   height: 675px;
   top: 2531px;
   left: 110px;
   position: absolute;
-  margin-top: 0px auto;
+  /* margin-top: 0px auto; */
   background-color: #E5E5E5;
 
 
