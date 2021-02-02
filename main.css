@@ -1028,7 +1028,7 @@ background-color: #E5E5E5;
       position: absolute;
       width: 389px;
       height: 218px;
-      left: 486px;
+      left: 496px;
       top: 48px;
       font-family: Gilroy;
       font-style: normal;
@@ -1215,14 +1215,14 @@ background-color: #E5E5E5;
       left: 0px;
       top: 5074px;
     }
-    .autohelp{
+    /* .autohelp{
       position: absolute;
       width: 680px;
       height: 114px;
       left: 402px;
       top: 5240px;
       display: flex;
-    }
+    }*/
     .autohelp-name{
       position: absolute;
       width: 680px;
