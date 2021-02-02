@@ -924,7 +924,7 @@ background-color: #E5E5E5;
      left: 0px;
      top: 3397px;
      display: flex;
-     
+
 
    }
    .finance-bord2{
@@ -1219,7 +1219,7 @@ background-color: #E5E5E5;
       left: 402px;
       top: 5240px;
     }
-    .autohelp__name{
+    .autohelp-name{
       position: absolute;
       width: 680px;
       height: 24px;
@@ -1231,13 +1231,8 @@ background-color: #E5E5E5;
       font-size: 28px;
       line-height: 24px;
       color: #242424;
-<<<<<<< HEAD
       }
     .autohelp-text{
-=======
-    }
-    .autohelp__text{
->>>>>>> parent of 8b062b4... fix
       position: absolute;
       width: 680px;
       height: 66px;
