@@ -927,7 +927,7 @@ background-color: #E5E5E5;
 
 
    }
-   .bord2{
+   .bord2__bord2{
      position: absolute;
      width: 1366px;
      height: 126px;
@@ -935,7 +935,7 @@ background-color: #E5E5E5;
      top: 3427px;
    }
 
-   .finance-help__name{
+   .financehelp__name{
      position: absolute;
      width: 368px;
      height: 32px;
@@ -951,7 +951,7 @@ background-color: #E5E5E5;
      text-align: center;
      color: #242424;
      }
-     .finance-help__text{
+     .financehelp__text{
        position: absolute;
        width: 758px;
        height: 55px;
