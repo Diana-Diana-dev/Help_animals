@@ -930,11 +930,11 @@ background-color: #E5E5E5;
 
    }
    .bord2__bord2{
-     position: static;
+     position: absolute;
      width: 1366px;
      height: 126px;
      left: 0px;
-     top: 3427px;
+     top: 30px;
    }
 
    .financehelp__name{
