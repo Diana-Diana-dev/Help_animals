@@ -930,7 +930,7 @@ background-color: #E5E5E5;
 
    }
    .bord2__bord2{
-     position: absolute;
+     position: static;
      width: 1366px;
      height: 126px;
      left: 0px;
