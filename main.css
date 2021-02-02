@@ -924,6 +924,8 @@ background-color: #E5E5E5;
      left: 0px;
      top: 3397px;
      display: flex;
+     flex-direction: column;
+     padding: 0;
 
 
    }
