@@ -1218,6 +1218,7 @@ background-color: #E5E5E5;
       height: 114px;
       left: 402px;
       top: 5240px;
+      display: flex;
     }
     .autohelp-name{
       position: absolute;
