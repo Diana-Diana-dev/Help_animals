@@ -919,10 +919,13 @@ background-color: #E5E5E5;
    .finance{
      position: absolute;
      background: #FFFFFF;
-     width: 1366px;
+     max-width: 1366px;
      height: 716px;
      left: 0px;
      top: 3397px;
+     display: flex;
+     direction: row;
+     align-items: center;
    }
    .finance__bord2{
      position: absolute;
