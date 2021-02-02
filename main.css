@@ -1225,12 +1225,13 @@ background-color: #E5E5E5;
       height: 24px;
       left: 402px;
       top: 5240px;
-      font-family: Gilroy;
+      font-family: 'Gilroy';
       font-style: normal;
       font-weight: 600;
       font-size: 28px;
       line-height: 24px;
       color: #242424;
+      padding-bottom: 24px;
     }
     .autohelp-text{
       position: absolute;
@@ -1238,7 +1239,7 @@ background-color: #E5E5E5;
       height: 66px;
       left: 402px;
       top: 5288px;
-      font-family: Gilroy;
+      font-family: 'Gilroy';
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
