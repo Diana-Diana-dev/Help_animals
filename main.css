@@ -750,7 +750,7 @@ background-color: #E5E5E5;
      width: 306px;
      height: 52px;
      left: 36px;
-     top: 633;
+     top: 640;
    }
    .third-gallery3{
      position: absolute;
@@ -1017,7 +1017,7 @@ background-color: #E5E5E5;
       height: 24px;
       left: 486px;
       top: 0px;
-      font-family: Gilroy;
+      font-family: 'Gilroy';
       font-style: normal;
       font-weight: 300;
       font-size: 28px;
@@ -1519,19 +1519,19 @@ background-color: #E5E5E5;
   top: 7336px;
   background: url("https://diana-diana-dev.github.io/Help_animals/pictures/Group67.png");
 }
-footer{
+/* footer{
   font-family: 'Gilroy', serif;
   max-width: 1366px;
   margin: 0 auto;
-}
+}*/
 .menu{
 
   max-width: 1366px;
   height: 117px;
   left: 0px;
   margin: o auto;
-
   display: flex;
+  margin-bottom: 30px;
 }
 .menu-footer{
     position: absolute;
