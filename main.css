@@ -1332,9 +1332,10 @@ background-color: #E5E5E5;
        display: flex;
        align-items: center;
        text-align: center;
+       justify-content: center;
        color: #242424
      }
-     .news__photo{
+     .news__photo1{
        position: absolute;
        width: 140px;
        height: 140px;
@@ -1342,7 +1343,7 @@ background-color: #E5E5E5;
        top: 126;
        background: url("https://diana-diana-dev.github.io/Help_animals/pictures/Ellipse1.png");
      }
-     .news__text{
+     .news__text1{
        position: absolute;
        width: 603px;
        height: 140px;
@@ -1358,7 +1359,7 @@ background-color: #E5E5E5;
        align-items: flex-start;
        color: #242424
      }
-     .news__photo1{
+     .news__photo2{
        position: absolute;
        width: 140px;
        height: 140px;
@@ -1366,7 +1367,7 @@ background-color: #E5E5E5;
        top: 306px;
        background: url("https://diana-diana-dev.github.io/Help_animals/pictures/Ellipse2.png");
      }
-     .news__text1{
+     .news__text2{
        position: absolute;
        width: 603px;
        height: 140px;
@@ -1413,7 +1414,7 @@ background-color: #E5E5E5;
       flex: none;
       order: 0;
       flex-grow: 0;
-      margin: 0px 10px;
+      /* margin: 0px 10px; */
       }
 
 
