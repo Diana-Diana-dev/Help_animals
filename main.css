@@ -1536,11 +1536,13 @@ footer{
     position: absolute;
     display: flex;
     background-color:#E5E5E5;
+    align-items: center;
 }
 .menu-footer2{
     position: absolute;
     display: flex;
     background-color:#E5E5E5;
+    align-items: center;
 }
 .menu-footer__home{
   position: absolute;
