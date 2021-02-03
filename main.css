@@ -1200,7 +1200,7 @@ background-color: #E5E5E5;
       font-size: 20px;
       line-height: 40px;
       display: flex;
-      align-items: center;
+      /* align-items: center; */
       justify-content: flex-start;
       text-decoration-line: underline;
       color: #AD7F00;
