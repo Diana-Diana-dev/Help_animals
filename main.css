@@ -622,7 +622,7 @@ background-color: #E5E5E5;
   .second-gallery2{
     position: absolute;
     width: 368px;
-    height: 675px;
+    height: 700px;
     left: 499px;
     top: 2531px;
     background-color: #E5E5E5;
@@ -1186,7 +1186,7 @@ background-color: #E5E5E5;
       width: 217px;
       height: 40px;
       left: 0px;
-      top: 190px;
+      top: 0px;
     }
     .giv-link__where{
       position: static;
@@ -1527,7 +1527,7 @@ background-color: #E5E5E5;
 .menu{
 
   max-width: 1366px;
-  height: 117px;
+  height: 150px;
   left: 0px;
   margin: o auto;
   display: flex;
