@@ -114,6 +114,22 @@ a{
   left: 1096px;
   top: 33px;
 }
+.nav-list__item5:hover{
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  left: 1096px;
+  top: 33px;
+  background: url("https://diana-diana-dev.github.io/Help_animals/pictures/normal_hover.png");
+}
+.nav-list__item5:active{
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  left: 1096px;
+  top: 33px;
+  background: url("https://diana-diana-dev.github.io/Help_animals/pictures/normal_pressed.png");
+}
 .nav-list__item6{
   position: absolute;
   width: 63px;
@@ -143,6 +159,8 @@ background-color: #E5E5E5;
   height: 77px;
   left: 110px;
   top: 110px;
+  display: flex;
+  align-items: center;
   z-index: 1;
 
 }
