@@ -740,10 +740,11 @@ background-color: #E5E5E5;
    }
    .gallery2__btn1{
      position: absolute;
-     width: 219px;
-     height: 52px;
+     width: 220px;
+     height: 55px;
      left:75px;
      top: 570px;
+     padding: 5px;
    }
    .gallery2__btn2{
      position: absolute;
