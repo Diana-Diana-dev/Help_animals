@@ -288,14 +288,14 @@ background-color: #E5E5E5;
   height: 221px;
   top:827px;
   left: 522px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
 }
 .heart-big__text2{
   width: 323px;
   height: 110px;
   left: 522px;
   top:1064px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
 
 }
 }
