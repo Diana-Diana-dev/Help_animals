@@ -273,8 +273,8 @@ background-color: #E5E5E5;
   z-index: -1;
 }
 .heart-big__dogcat{
-  width: 469px;
-  height: 376px;
+  min-width: 469px;
+  min-height: 376px;
   left: 0px;
 }
 .heart-big__name{
