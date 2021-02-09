@@ -263,6 +263,11 @@ background-color: #E5E5E5;
   background: #FFFFFF;
   z-index: -1;
 }
+@@media screen and (max-width:1100px) {
+.heart{
+  
+}
+}
 .heart-big__dogcat{
   /* position: absolute; */
   width: 628px;
