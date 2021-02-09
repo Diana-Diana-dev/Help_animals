@@ -266,7 +266,7 @@ background-color: #E5E5E5;
 @media screen and (min-width:1024px) and (max-width:1366px) {
 .heart{
   position: absolute;
-  width: 1024px;
+  max-width: 1024px;
   height: 568px;
   top: 642px;
   left: 0px;
