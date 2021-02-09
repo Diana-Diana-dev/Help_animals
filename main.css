@@ -253,7 +253,7 @@ background-color: #E5E5E5;
 }
 .heart{
   position: absolute;
-  max-width: 1366px;
+  width: 1366px;
   height: 650px;
   top:834px;
   left: 0px;
