@@ -109,24 +109,24 @@ a{
 }
 .nav-list__item5{
   position: absolute;
-  width: 63px;
-  height: 63px;
+  width: 75px;
+  height: 75px;
   left: 1096px;
   top: 33px;
   background: url("https://diana-diana-dev.github.io/Help_animals/pictures/Groupvk.png");
 }
 .nav-list__item5:hover{
   position: absolute;
-  width: 63px;
-  height: 63px;
+  width: 75px;
+  height: 75px;
   left: 1096px;
   top: 33px;
   background: url("https://diana-diana-dev.github.io/Help_animals/pictures/normal_hover.png");
 }
 .nav-list__item5:active{
   position: absolute;
-  width: 63px;
-  height: 63px;
+  width: 75px;
+  height: 75px;
   left: 1096px;
   top: 33px;
   background: url("https://diana-diana-dev.github.io/Help_animals/pictures/normal_pressed.png");
