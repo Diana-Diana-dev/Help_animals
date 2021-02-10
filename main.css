@@ -267,8 +267,8 @@ background-color: #E5E5E5;
 
 .heart-big__dogcat{
   /* position: absolute; */
-  width: 628px;
-  height: 541px;
+  max-width: 628px;
+  max-height: 541px;
   top:888px;
   left: 0px;
   margin-right: 65px;
@@ -276,7 +276,7 @@ background-color: #E5E5E5;
 }
 .heart-big__name{
   /* position: absolute; */
-  width: 466px;
+  max-width: 466px;
   height: 94px;
   left: 693px;
   top: 962px;
@@ -292,8 +292,8 @@ background-color: #E5E5E5;
 }
 .heart-big__text1{
   /* position: absolute; */
-  width: 466px;
-  height: 155px;
+  max-width: 466px;
+  min-height: 155px;
   left: 693px;
   top: 1084px;
   font-family: 'Gilroy';
@@ -307,8 +307,8 @@ background-color: #E5E5E5;
 }
 .heart-big__text2{
   /* position: absolute; */
-  width: 466px;
-  height: 88px;
+  max-width: 466px;
+  min-height: 88px;
   left: 693px;
   top: 1259px;
   font-family: 'Gilroy';
@@ -1540,7 +1540,7 @@ background-color: #E5E5E5;
   height: 741px;
   left: 0px;
   top: 7336px;
-  background: url("https://diana-diana-dev.github.io/Help_animals/pictures/Group67.png"); 
+  background: url("https://diana-diana-dev.github.io/Help_animals/pictures/Group67.png");
 }
 /* footer{
   font-family: 'Gilroy', serif;
