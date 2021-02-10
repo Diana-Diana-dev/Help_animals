@@ -1,0 +1,38 @@
+@media screen and (max-width:1366px) {
+.body{
+max-width: 1024px;
+}
+.heart{
+  position: absolute;
+  width: 100%;
+  min-height: 568px;
+  top: 642px;
+  left: 0px;
+  z-index: -1;
+}
+.heart-big__dogcat{
+  width: 469px;
+  min-height: 376px;
+  left: 0px;
+}
+.heart-big__name{
+  width: 323px;
+  height: 94px;
+  top:709px;
+  left: 522px;
+}
+.heart-big__text1{
+  width: 323px;
+  height: 221px;
+  top:827px;
+  left: 522px;
+  /* padding-right: 20px; */
+}
+.heart-big__text2{
+  width: 323px;
+  height: 110px;
+  left: 522px;
+  top:1064px;
+  /* padding-right: 20px; */
+}
+}
