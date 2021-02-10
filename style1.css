@@ -3,7 +3,7 @@
 .heart{
   position: absolute;
   max-width: 100%;
-  min-height: 568px;
+  max-height: 568px;
   top: 642px;
   left: 0px;
   z-index: -1;
@@ -17,7 +17,7 @@
 }
 .heart-big__name{
   max-width: 323px;
-  min-height: 94px;
+  max-height: 94px;
   top:709px;
   left: 522px;
   font-size: 24px;
@@ -29,14 +29,14 @@
 }
 .heart-big__text1{
   max-width: 323px;
-  min-height: 221px;
+  max-height: 221px;
   top:827px;
   left: 522px;
   /* padding-right: 20px; */
 }
 .heart-big__text2{
   max-width: 323px;
-  min-height: 110px;
+  max-height: 110px;
   left: 522px;
   top:1064px;
   /* padding-right: 20px; */
