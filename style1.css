@@ -1,4 +1,4 @@
-@media screen and (max-width:1366px) {
+@media screen and (max-width:1024px) {
 .body{
 max-width: 1024px;
 }
@@ -11,15 +11,23 @@ max-width: 1024px;
   z-index: -1;
 }
 .heart-big__dogcat{
+  position: absolute;
   width: 469px;
   min-height: 376px;
   left: 0px;
+  top: 678px;
 }
 .heart-big__name{
   width: 323px;
   height: 94px;
   top:709px;
   left: 522px;
+  font-size: 24px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
 }
 .heart-big__text1{
   width: 323px;
