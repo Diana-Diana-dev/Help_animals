@@ -2,7 +2,7 @@
 
 .heart{
   position: absolute;
-  width: 100%;
+  max-width: 100%;
   min-height: 568px;
   top: 642px;
   left: 0px;
