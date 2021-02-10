@@ -276,7 +276,7 @@ max-width: 1024px;
   z-index: -1;
 }
 .heart-big__dogcat{
-  min-width: 469px;
+  width: 469px;
   min-height: 376px;
   left: 0px;
 }
