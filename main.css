@@ -269,14 +269,16 @@ background-color: #E5E5E5;
   z-index: -1;
 }
 
-
+.heart-big{
+  flex: 0 1 50%;
+}
 .heart-big__dogcat{
   /* position: absolute; */
   max-width: 628px;
   max-height: 541px;
   top:888px;
   left: 0px;
-  margin-right: 65px;
+  /* margin-right: 65px; */
 
 }
 .heart-big__name{
