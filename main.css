@@ -281,7 +281,7 @@ background-color: #E5E5E5;
   height: 541px;
   top:888px;
   left: 0px;
-  padding-right: 65px;
+  margin-right:  65px;
 
 }
 .heart-big__name{
@@ -299,7 +299,7 @@ background-color: #E5E5E5;
   align-items: center;
   text-align: center;
   color: #C78100;
-  margin-right: 200px;
+  margin-right: 207px;
 }
 .heart-big__text1{
   /* position: absolute; */
@@ -315,7 +315,7 @@ background-color: #E5E5E5;
   color: #242424;
   margin-top: 28px;
   margin-bottom: 20px;
-  margin-right: 200px;
+  margin-right: 207px;
 }
 .heart-big__text2{
   /* position: absolute; */
@@ -329,7 +329,7 @@ background-color: #E5E5E5;
   font-size: 16px;
   line-height: 140%;
   color: #242424;
-  margin-right: 200px;
+  margin-right: 207px;
 }
 /* .ic{
   position: absolute;
