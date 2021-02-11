@@ -258,7 +258,7 @@ background-color: #E5E5E5;
 }
 .heart{
   position: absolute;
-  max-width: 1366px;
+  max-width: 100%;
   height: 650px;
   top:834px;
   left: 0px;
@@ -266,7 +266,7 @@ background-color: #E5E5E5;
   direction: row;
   align-items: center;
   background: #FFFFFF;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   z-index: -1;
 }
 
