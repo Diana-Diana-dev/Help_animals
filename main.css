@@ -55,7 +55,12 @@ header{
   margin: 0 auto;
   background-color: #E5E5E5;
 }
-
+.wrapper{
+  overflow: hidden;
+  max-width: 1366px;
+  margin: 0 auto;
+  background-color: #E5E5E5;
+}
 .nav{
   max-width: 1366px;
   margin: 0px auto;
