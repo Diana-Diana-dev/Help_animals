@@ -271,12 +271,12 @@ background-color: #E5E5E5;
   z-index: -1;
 }
 
- .heart-big{
-  flex: 0 1 50%;
+ /* .heart-big{
+  flex: 0 1 50%; */
 
 }
 .heart-big__dogcat{
-  position: absolute;
+  /* position: absolute; */
   width: 628px;
   height: 541px;
   top:888px;
@@ -285,7 +285,7 @@ background-color: #E5E5E5;
 
 }
 .heart-big__name{
-  position: absolute;
+  /* position: absolute; */
   width: 466px;
   height: 94px;
   left: 693px;
@@ -301,7 +301,7 @@ background-color: #E5E5E5;
   color: #C78100;
 }
 .heart-big__text1{
-  position: absolute;
+  /* position: absolute; */
   width: 466px;
   height: 155px;
   left: 693px;
@@ -316,7 +316,7 @@ background-color: #E5E5E5;
   margin-bottom: 20px;
 }
 .heart-big__text2{
-  position: absolute;
+  /* position: absolute; */
   width: 466px;
   height: 88px;
   left: 693px;
