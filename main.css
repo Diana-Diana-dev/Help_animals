@@ -281,7 +281,7 @@ background-color: #E5E5E5;
   height: 541px;
   top:888px;
   left: 0px;
-  margin-right:  65px;
+
 
 }
 .heart-big__name{
@@ -300,6 +300,7 @@ background-color: #E5E5E5;
   text-align: center;
   color: #C78100;
   margin-right: 207px;
+  margin-left: 65px;
 }
 .heart-big__text1{
   /* position: absolute; */
@@ -316,6 +317,7 @@ background-color: #E5E5E5;
   margin-top: 28px;
   margin-bottom: 20px;
   margin-right: 207px;
+  margin-left: 65px;
 }
 .heart-big__text2{
   /* position: absolute; */
@@ -330,6 +332,7 @@ background-color: #E5E5E5;
   line-height: 140%;
   color: #242424;
   margin-right: 207px;
+  margin-left: 65px;
 }
 /* .ic{
   position: absolute;
