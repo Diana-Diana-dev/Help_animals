@@ -43,14 +43,14 @@
   margin: 0px;
 }
 body {
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', serif;
   max-width: 1366px;
   margin: 0 auto;
   background-color: #E5E5E5;
 }
 
 header{
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', serif;
   max-width: 1366px;
   margin: 0 auto;
   background-color: #E5E5E5;
