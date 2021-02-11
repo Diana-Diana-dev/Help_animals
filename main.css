@@ -266,6 +266,7 @@ background-color: #E5E5E5;
   direction: row;
   align-items: center;
   background: #FFFFFF;
+  flex-wrap: wrap;
   z-index: -1;
 }
 
