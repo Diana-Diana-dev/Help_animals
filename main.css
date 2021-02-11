@@ -299,6 +299,7 @@ background-color: #E5E5E5;
   align-items: center;
   text-align: center;
   color: #C78100;
+  padding-right: 200px;
 }
 .heart-big__text1{
   /* position: absolute; */
@@ -314,6 +315,7 @@ background-color: #E5E5E5;
   color: #242424;
   margin-top: 28px;
   margin-bottom: 20px;
+  padding-right: 200px;
 }
 .heart-big__text2{
   /* position: absolute; */
@@ -327,6 +329,7 @@ background-color: #E5E5E5;
   font-size: 16px;
   line-height: 140%;
   color: #242424;
+  padding-right: 200px;
 }
 /* .ic{
   position: absolute;
