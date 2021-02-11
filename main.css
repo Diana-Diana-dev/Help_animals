@@ -55,12 +55,12 @@ header{
   margin: 0 auto;
   background-color: #E5E5E5;
 }
-.wrapper{
-  /* overflow: hidden; */
+/*.wrapper{
+   overflow: hidden;
   max-width: 1366px;
   margin: 0 auto;
   background-color: #E5E5E5;
-}
+}*/
 .nav{
   max-width: 1366px;
   margin: 0px auto;
@@ -266,7 +266,7 @@ background-color: #E5E5E5;
   direction: row;
   align-items: center;
   background: #FFFFFF;
-  padding-right: 269px;
+  padding-right: 200px;
   /* flex-wrap: wrap; */
   z-index: -1;
 }
