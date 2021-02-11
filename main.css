@@ -258,7 +258,7 @@ background-color: #E5E5E5;
 }
 .heart{
   position: absolute;
-  max-width: 100%;
+  max-width: 1366px;
   height: 650px;
   top:834px;
   left: 0px;
@@ -271,17 +271,17 @@ background-color: #E5E5E5;
   z-index: -1;
 }
 
-.heart-big{
+ .heart-big{
   flex: 0 1 50%;
 
 }
 .heart-big__dogcat{
-   position: absolute;
+  position: absolute;
   width: 628px;
   height: 541px;
   top:888px;
   left: 0px;
-   margin-right: 65px;
+  margin-right: 65px;
 
 }
 .heart-big__name{
@@ -290,7 +290,7 @@ background-color: #E5E5E5;
   height: 94px;
   left: 693px;
   top: 962px;
-  font-family: Gilroy;
+  font-family: 'Gilroy';
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
