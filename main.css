@@ -258,7 +258,7 @@ background-color: #E5E5E5;
 }
 .heart{
   position: absolute;
-  max-width: 1366px;
+  width: 1366px;
   height: 650px;
   top:834px;
   left: 0px;
@@ -271,6 +271,7 @@ background-color: #E5E5E5;
 
 .heart-big{
   flex: 0 1 50%;
+
 }
 .heart-big__dogcat{
   /* position: absolute; */
@@ -278,7 +279,7 @@ background-color: #E5E5E5;
   max-height: 541px;
   top:888px;
   left: 0px;
-   margin-right: 65px; 
+   margin-right: 65px;
 
 }
 .heart-big__name{
