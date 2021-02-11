@@ -258,7 +258,7 @@ background-color: #E5E5E5;
 }
 .heart{
   position: absolute;
-  width: 1366px;
+  width: 100%;
   height: 650px;
   top:834px;
   left: 0px;
