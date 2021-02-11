@@ -266,6 +266,7 @@ background-color: #E5E5E5;
   direction: row;
   align-items: center;
   background: #FFFFFF;
+  padding-right: 269px;
   /* flex-wrap: wrap; */
   z-index: -1;
 }
