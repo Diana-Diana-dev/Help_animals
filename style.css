@@ -293,6 +293,10 @@ body{
 
 
 .icon_help__name{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  position: relative;
   font-family: Gilroy;
   font-style: normal;
   font-weight: 300;
@@ -304,6 +308,31 @@ body{
   color: #242424;
   padding-top: 80px;
   padding-bottom: 47px;
+  animation-name: whant-to_help;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.icon_help__name:hover{
+  color: green;
+}
+.icon_help__name:active{
+  color: orange;
+  animation-play-state: paused;
+}
+@keyframes whant-to_help{
+  0%{
+      top: 1px;
+  }
+  25%{
+      transform: rotate(10deg);
+  }
+  75%{
+      transform: rotate(-10deg);
+  }
+  100%{
+      top: 30px;
+  }
 }
 .icon_link{
   display: flex;
