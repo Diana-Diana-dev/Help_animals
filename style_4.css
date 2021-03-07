@@ -13,7 +13,7 @@
   .header__body{
   	height: 80px;
   }
- 
+
   .header__menu{
   	position: absolute;
   	display: block;
@@ -23,7 +23,7 @@
   	height: 160%;
   }
   .header__burger.active:before{
-  	
+
   	transform: rotate(45deg);
   	top: 12px;
   }
@@ -52,7 +52,7 @@
  .save-life__name{
   	font-size: 30px;
   	line-height: 36px;
-  	
+
   	/*padding-top: 0px;*/
  }
  .save-life__blag{
@@ -75,7 +75,7 @@
   	padding-right: 129px;
   	/*justify-content: center;*/
   	text-align: center;
- } 
+ }
  .save-life__btn{
  	display: flex;
  	justify-content: center;
@@ -89,7 +89,7 @@
    right: 0;
    padding-right: 0px;
    padding-left: 40%;
- 
+
 }
 .orange_cat{
    max-width: 173px;
@@ -104,7 +104,7 @@
    left: 13px;
    padding-right: 5px;
    padding-top: 15%;
-  
+
 }
 .heart{
 	display: flex;
@@ -113,7 +113,7 @@
 .left_box{
   display: flex;
   width: 65%;
-  padding: 16px 100px 32px 0px;	
+  padding: 16px 100px 32px 0px;
   margin-right: 0px;
 }
 .left_box__yellow{
@@ -124,7 +124,7 @@
 }
  .right_box{
  	width: 100%;
-  	padding: 24px 129px 16px 129px; 
+  	padding: 24px 129px 16px 129px;
  }
  .right_box__name{
   	font-size: 16px;
@@ -192,7 +192,7 @@
   flex-direction: column;
   padding: 24px 129px 40px 129px;
 
-  
+
 }
 .home-love{
   width: 100%;
@@ -201,7 +201,7 @@
  .home-time{
   width: 100%;
   padding: 0px;
-  
+
  }
  .home-love__name{
   text-align: center;
@@ -235,81 +235,26 @@
   line-height: 200%;
   padding-bottom: 16px;
 }
-.gallery{
-  
-}
-.first-gallery1{
+.gallery__item{
   display: inline-flex;
   justify-content: center;
   width: 300px;
-  height: 525px;	
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 10px;
-}
-.gallery1{
-  width: 300px;
-  height: 525px;
-}
-.gallery1__img{
-  height: 284px;
-  width: auto;
-}
-.gallery1__text{   
-  width: 272px;
-  height: 80px;
-}
-.second-gallery2{
-  display: flex;
-  justify-content: center;
-  width: 300px;
   height: 525px;
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 10px;
 }
-.gallery2{
+.gallery__shadow{
   width: 300px;
   height: 525px;
 }
-.gallery2__img{
+.gallery__img{
   height: 284px;
   width: auto;
 }
-.gallery2__text{   
+.gallery__text{
   width: 272px;
   height: 80px;
-}
-.third-gallery3{
-  display: flex;
-  justify-content: center;
-  width: 300px;
-  height: 525px;
-  padding-left: 20px;
-  padding-right: 20px; 
-  margin-bottom: 10px;  
-}
-.gallery3{
-  width: 300px;
-  height: 525px;
-}
-.gallery3__img{
-  height: 284px;
-  width: auto;
-}
-.gallery3__text{   
-  width: 272px;
-  height: 80px;
-}
-.buttons__left{
-  position: absolute;
-  display: block;
-  top: -500%;
-}
-.buttons__right{
- position: absolute;
- display: block;
- top: -500%;
 }
  .buttons__center{
   width: 100%;
@@ -325,11 +270,11 @@
  	/*max-width: 529px;*/
     font-size: 14px;
     line-height: 140%;
-    padding: 40px 129px 6px 129px; 
+    padding: 40px 129px 6px 129px;
  }
 
  .social__vk{
-    
+
     padding-left: 220px;
  }
  .social__vk img{
@@ -388,7 +333,7 @@
     padding-right: 0px;
     padding-left: 129px;
     padding-bottom: 16px;
-    
+
   }
   .fin-box__text{
     font-size: 14px;
@@ -411,22 +356,22 @@
   }
   .bord3__3{
     padding-top: 32px;
-    padding-bottom: 24px;     
+    padding-bottom: 24px;
   }
   .food__name{
     font-size: 16px;
     line-height: 150%;
     padding-left: 129px;
-    padding-bottom: 16px;   
+    padding-bottom: 16px;
   }
  .food__text1 {
     font-size: 14px;
     line-height: 140%;
     padding-left: 129px;
-    padding-right: 129px; 
+    padding-right: 129px;
     padding-bottom: 5px;
   }
- .food__text{     
+ .food__text{
     font-size: 14px;
     line-height: 140%;
     padding-left: 145px;
@@ -444,7 +389,7 @@
     font-size: 16px;
     line-height: 150%;
     padding-left: 129px;
-    
+
   }
   .medicine__text{
     font-size: 14px;
@@ -481,7 +426,7 @@
     padding-left: 0px;
   }
   .bord4__4{
-    padding-bottom: 24px    
+    padding-bottom: 24px
   }
   .autohelp-name{
   	display: flex;
@@ -498,7 +443,7 @@
     padding-left: 129px;
     padding-right: 129px;
     padding-bottom: 16px;
- } 
+ }
  .autocar-btn{
  	display: flex;
  	justify-content: center;
@@ -507,7 +452,7 @@
  }
  .bord5__5{
     padding-top: 30px;
- } 
+ }
  .volonterstvo{
  	display: block;
  }
@@ -525,7 +470,7 @@
     line-height: 150%;
     padding: 0px;
     padding-bottom: 16px;
- } 
+ }
  .volonterstvo_right__text{
     font-size: 14px;
     line-height: 140%;
@@ -535,7 +480,7 @@
   	display: flex;
   	justify-content: center;
     padding-left: 0px;
-    padding-bottom: 48px; 
+    padding-bottom: 48px;
   }
   .news__name{
     font-size: 16px;
@@ -545,7 +490,7 @@
   .news_news__photo1{
     width: 79px;
     height: 79px;
-    padding: 35px 16px 84px 129px; 
+    padding: 35px 16px 84px 129px;
   }
   .news_news__text1{
     font-size: 14px;
@@ -557,7 +502,7 @@
     height: 79px;
     padding: 45px 16px 59px 129px;
   }
-  .news_news__text2{       
+  .news_news__text2{
     font-size: 14px;
     line-height: 140%;
     padding: 24px 129px 16px 0px;
@@ -573,12 +518,12 @@
   }
 
 
-  
+
   .about__us{
    font-size: 16px;
    line-height: 150%;
    padding-top: 32px;
-   margin-bottom: 24px; 
+   margin-bottom: 24px;
  }
  .about__we{
    font-size: 14px;
@@ -610,7 +555,7 @@
    padding-bottom: 16px;
  }
  .about__vk{
- 	
+
     padding-left: 170px;
     padding-bottom: 30px;
   }
@@ -619,7 +564,7 @@
  	height: 80px;
   }
  .about__insta{
- 	
+
     margin-left: 16px;
     padding-bottom: 30px;
   }
@@ -630,7 +575,7 @@
   .menu{
   max-width: 640px;
   height: 200px;
- 
+
 }
 
 

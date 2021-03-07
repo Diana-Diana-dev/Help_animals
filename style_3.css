@@ -43,7 +43,7 @@
     transform: scale(0);
   }
   .header__burger.active:before{
-  	
+
   	transform: rotate(45deg);
   	top: 19px;
   }
@@ -71,7 +71,7 @@
   }
   .header__list1{
   	display: block;
-  	
+
   }
   .header__list2{
   	display: block;
@@ -83,7 +83,7 @@
   .header__list2 li{
   	padding-bottom: 25px;
   }
-  
+
   .header__logo{
   	padding-left: 65%;
   }
@@ -102,7 +102,7 @@
  .save-life__name{
   	font-size: 42px;
   	line-height: 51px;
-  	
+
   	/*padding-top: 0px;*/
  }
  .save-life__blag{
@@ -121,12 +121,12 @@
   	line-height: 19px;
   	margin-bottom: 44px;
   	padding-right: 60%;
- } 
+ }
  .save-life-dog{
   max-width: 344px;
   max-height: 385px;
   padding-left: 41%;
- 
+
 }
 .orange_cat{
   max-width: 235px;
@@ -139,14 +139,14 @@
   left: -1px;
   padding-right: 5px;
   padding-top: 15%;
- 
+
 }
  .left_box{
   	padding-top: 24px;
   	margin-right: 43px;
  }
  .right_box{
-  	padding: 24px 110px 24px 10px; 
+  	padding: 24px 110px 24px 10px;
  }
  .right_box__name{
   	font-size: 20px;
@@ -231,51 +231,23 @@
   line-height: 200%;
   padding-bottom: 16px;
 }
-.gallery{
-  
-  /*padding-left: 100px;
-  padding-right: 100px;*/
-}
-.first-gallery1{
-  display: inline-flex;
-  justify-content: center;	
-  padding-left: 5px;
-  padding-right: 5px;
-}
-.second-gallery2{
-  display: flex;
-  justify-content: center;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-.third-gallery3{
-  display: flex;
-  justify-content: center;
-  padding-left: 5px;
-  padding-right: 5px;   
-}
-.buttons__left{
-  position: absolute;
-  display: block;
-  top: -500%;
-}
-.buttons__right{
- position: absolute;
- display: block;
- top: -500%;
+.gallery .slick-arrow.slick-prev{
+  left: 15%;
+ }
+.gallery .slick-arrow.slick-next{
+  right: 15%;
 }
  .buttons__center{
   width: 100%;
   justify-content: center;
   align-items: center;
-
   }
 
 .social__text{
  	/*max-width: 529px;*/
     font-size: 16px;
     line-height: 140%;
-    padding: 48px 2% 74px 110px; 
+    padding: 48px 2% 74px 110px;
  }
  .social__vk{
     padding-top: 48px;
@@ -344,22 +316,22 @@
   }
   .bord3__3{
     padding-top: 36px;
-    padding-bottom: 24px;     
+    padding-bottom: 24px;
   }
   .food__name{
     font-size: 20px;
     line-height: 120%;
     padding-left: 185px;
-    padding-bottom: 24px;   
+    padding-bottom: 24px;
   }
  .food__text1 {
     font-size: 14px;
     line-height: 140%;
     padding-left: 185px;
-    padding-right: 185px; 
+    padding-right: 185px;
     padding-bottom: 5px;
   }
- .food__text{     
+ .food__text{
     font-size: 14px;
     line-height: 140%;
     padding-left: 201px;
@@ -409,7 +381,7 @@
     padding-bottom: 58px;
   }
   .bord4__4{
-    padding-bottom: 24px    
+    padding-bottom: 24px
   }
   .autohelp-name{
     font-size: 20px;
@@ -423,14 +395,14 @@
     padding-left: 185px;
     padding-right: 185px;
     padding-bottom: 38px;
- } 
+ }
  .autocar-btn{
     padding-left: 175px;
     padding-bottom: 58px;
  }
  .bord5__5{
     padding-top: 30px;
- } 
+ }
  .dogplay{
     padding: 84px 40px 84px 0px;
  }
@@ -438,7 +410,7 @@
     font-size: 20px;
     line-height: 120%;
     padding: 39px 110px 24px 5px;
- } 
+ }
  .volonterstvo_right__text{
     font-size: 14px;
     line-height: 140%;
@@ -446,7 +418,7 @@
   }
   .volonterstvo_right__btn{
     padding-left: 0px;
-    padding-bottom: 40px; 
+    padding-bottom: 40px;
   }
   .news__name{
     font-size: 24px;
@@ -456,7 +428,7 @@
   .news_news__photo1{
     width: 104px;
     height: 104px;
-    padding: 42px 18px 65px 205px; 
+    padding: 42px 18px 65px 205px;
   }
   .news_news__text1{
     font-size: 16px;
@@ -468,7 +440,7 @@
     height: 104px;
     padding: 50px 18px 34px 205px;
   }
-  .news_news__text2{       
+  .news_news__text2{
     font-size: 16px;
     line-height: 140%;
     padding: 28px 137px 16px 0px;
@@ -482,12 +454,12 @@
   }
 
 
-  
+
   .about__us{
    font-size: 20px;
    line-height: 120%;
    padding-top: 48px;
-   margin-bottom: 24px; 
+   margin-bottom: 24px;
  }
  .about__we{
    font-size: 14px;
@@ -537,31 +509,31 @@
 }
  /*.menu{
    max-width: 768px;
-   max-height: 171px; 
+   max-height: 171px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
 }
  }
- .menu-footer{ 
-   display: flex; 
+ .menu-footer{
+   display: flex;
    flex-direction: column;
    align-items: flex-start;
    flex-wrap: wrap;
    padding-top: 23px;
    padding-bottom: 56px;
-   padding-right: 0px; 
-   padding-left: 110px; 
+   padding-right: 0px;
+   padding-left: 110px;
 }
  .menu-footer2{
-   display: flex; 
+   display: flex;
    flex-direction: column;
    align-items: flex-end;
    padding-top: 23px;
    padding-bottom: 56px;
    padding-left: 0px;
    padding-right: 110px;
-   
+
 }
 
 
@@ -569,26 +541,26 @@
   padding-bottom: 20px;
   width: 150px;
 
-  
+
 }
 
 .menu-footer__cash{
   padding-bottom: 20px;
   width: 166px;
-  
- 
+
+
 }
 
 .menu-footer__things{
   padding-bottom: 20px;
   width: 228px;
-  
+
 }
 
 .menu-footer__car{
   padding-bottom: 20px;
   width: 83px;
-  
+
 }
 
 .menu-footer__volonter{
@@ -600,13 +572,13 @@
 .menu-footer2__about-us{
   padding-bottom: 20px;
   width: 40px;
-  
+
 }
 
 .menu-footer2__contakts{
   padding-bottom: 20px;
   width: 61px;
- 
+
 }*/
 .menu{
   max-width: 768px;
@@ -616,20 +588,20 @@
   justify-content: space-between;
 }
  }
- .menu-footer{ 
+ .menu-footer{
   max-width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   padding-left: 110px;
-  padding-right: 5px; 
+  padding-right: 5px;
   align-items: flex-start;
   padding-top: 24px;
   padding-bottom: 56px;
 }
  .menu-footer2{
-  max-width: 10%; 
+  max-width: 10%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -645,7 +617,7 @@
 .menu-footer__home{
   display: flex;
   justify-content: flex-start;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
 }
 
 .menu-footer__cash{
@@ -656,7 +628,7 @@
 
 .menu-footer__things{
   display: flex;
-  justify-content: flex-start; 
+  justify-content: flex-start;
   padding-bottom: 20px;
 }
 
@@ -664,7 +636,7 @@
   display: flex;
   justify-content: flex-start;
   padding-bottom: 20px;
-  
+
 }
 
 .menu-footer__volonter{
@@ -678,7 +650,7 @@
   display: flex;
   justify-content: flex-end;
   padding-bottom: 20px;
-  
+
 }
 
 .menu-footer2__contakts{

@@ -436,25 +436,74 @@ body{
 .link-animals__btn:hover{
  opacity: 0.5;
 }
+.slick-slider{
+
+}
+
+.slick-list{
+ overflow: hidden;
+}
+
+.slick-track{
+  display: flex;
+}
 
 .gallery{
-  width: 100%;
+  position: relative;
+  min-width: 0;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  padding-left: 7%;
+  padding-right: 7%;
 }
- .first-gallery1{
+
+.gallery .slick-arrow{
+  position: absolute;
+  top: 100%;
+  font-size: 0;
+  width: 110px;
+  height: 110px;
+}
+
+.gallery .slick-arrow.slick-prev{
+  left: 250px;
+  background: url('https://diana-diana-dev.github.io/Help_animals/pictures/Group37.png') 0 0  no-repeat;
+  border: none;
+  outline: none;
+
+ }
+
+ .gallery .slick-arrow.slick-prev:hover{
+  opacity: 0.5;
+ }
+
+.gallery .slick-arrow.slick-next{
+  right: 250px;
+  background: url('https://diana-diana-dev.github.io/Help_animals/pictures/Group38.png') 0 0  no-repeat;
+  border: none;
+  outline: none;
+}
+.gallery .slick-arrow.slick-next:hover{
+  opacity: 0.5;
+}
+
+ .gallery__item{
 
    width: 368px;
-   height: 620px;
-   /*left: 110px;
-   top: 2531px;*/
+   height: 555px;
    opacity: 0.5;
+   text-align: center;
    background-color: #E5E5E5;
+   transition: all 0.3s ease 0s;
    padding-left: 10px;
-  padding-right: 10px;
+   padding-right: 10px;
+
  }
- .gallery1{
+
+ .gallery__item.slick-center{
+  opacity: 1;
+ }
+
+ .gallery__shadow{
 
    height: 555px;
    width: 368px;
@@ -468,16 +517,16 @@ body{
    inset 4px 4px 16px rgba(203, 203, 203, 0.25);
    border-radius: 5px;
  }
-  .gallery1__img{
+
+  .gallery__img{
 
     height: 356px;
     width: auto;
     padding-left: 4.62%;
     padding-right: 4.35%;
     padding-top: 16px;
-    /*background: url('https://diana-diana-dev.github.io/Help_animals/pictures/image15(1).png');*/
   }
-  .gallery1__name{
+  .gallery__name{
 
     height: 20px;
     left: 4.62%;
@@ -496,7 +545,7 @@ body{
     margin-bottom: 10px;
     margin-top: 7px;
   }
-  .gallery1__line{
+  .gallery__line{
 
     height: 0px;
     left: 4.62%;
@@ -507,7 +556,7 @@ body{
     margin-bottom: 8px;
 
   }
-  .gallery1__boy-girl{
+  .gallery__boy-girl{
 
     height: 20px;
     padding-left: 4.62%;
@@ -523,13 +572,14 @@ body{
     color: #6B6B6B;
     margin-bottom: 6px;
     }
-  .gallery1__text{
+  .gallery__text{
 
     width: 335px;
     height: 64px;
     padding-left: 4.62%;
     padding-right: 4.35%;
     top: 444px;
+    text-align: start;
     font-family: Gilroy;
     font-style: normal;
     font-weight: 500;
@@ -538,14 +588,14 @@ body{
     display: flex;
     color: #242424;
   }
-   .gallery1-conteiner{
+   .gallery__conteiner{
     display: flex;
     align-items: center;
     padding-left: 17px;
     top: 508px;
   }
 
-  .gallery1-conteiner__link{
+  .gallery__conteiner-link{
 
     height: 40px;
     left: 0px;
@@ -559,7 +609,6 @@ body{
     display: flex;
     align-items: center;
     text-align: left;
-    /* justify-content: flex-start; */
     text-decoration-line: underline;
     color: #AD7F00;
     flex: none;
@@ -567,284 +616,21 @@ body{
     flex-grow: 0;
     /* margin: 0px 10px; */
   }
-   .gallery1-conteiner__link:hover{
+   .gallery__conteiner-link:hover{
     opacity: 0.5;
   }
 
-  .second-gallery2{
 
-    width: 368px;
-    height: 620px;
-   /* left: 499px;
-    top: 2531px;*/
-    background-color: #E5E5E5;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .gallery2{
-
-    height: 555px;
-    width: 368px;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    background: #F6F6F6;
-    box-shadow: 6px 6px 16px
-    rgba(163, 163, 163, 0.6),
-    -8px -8px -16px #FFFFFF,
-    inset 4px 4px 16px rgba(203, 203, 203, 0.25);
-    border-radius: 5px;
-  }
-   .gallery2__img{
-
-     height: 356px;
-     width: auto;
-     padding-left: 4.62%;
-     padding-right: 4.35%;
-     padding-top: 16px;
-     /*background: url('https://diana-diana-dev.github.io/Help_animals/pictures/image15.png');*/
-   }
-   .gallery2__name{
-
-     height: 20px;
-     left: 4.62%;
-     right: 4.35%;
-     top: 380px;
-     font-family: Gilroy;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 22px;
-     line-height: 20px;
-     display: flex;
-     align-items: center;
-     text-align: center;
-     justify-content: center;
-     color: #242424;
-     margin-bottom: 10px;
-     margin-top: 7px;
-   }
-   .gallery2__line{
-
-     height: 0px;
-     left: 4.62%;
-     right: 4.35%;
-     top: 410px;
-     opacity: 0.5;
-     border: 1px solid #D6D6D6;
-     margin-bottom: 8px;
-   }
-   .gallery2__boy-girl{
-
-     height: 20px;
-     padding-left: 4.62%;
-     padding-right: 4.35%;
-     top: 418px;
-     font-family: Gilroy;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 20px;
-     display: flex;
-     align-items: center;
-     color: #6B6B6B;
-     margin-bottom: 6px;
-     }
-   .gallery2__text{
-
-     width: 335px;
-     height: 64px;
-     padding-left: 4.62%;
-     padding-right: 4.35%;
-     top: 444px;
-     font-family: Gilroy;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 20px;
-     display: flex;
-     color: #242424;
-   }
-    .gallery2-conteiner{
-     display: flex;
-     align-items: center;
-     padding-left: 17px;
-     top: 508px;
-   }
-   .gallery2-conteiner__link{
-
-     height: 40px;
-     left: 0px;
-     right: 0px;;
-     top: calc(50% - 40px/2);
-     font-family: Gilroy;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 20px;
-     line-height: 40px;
-     display: flex;
-     align-items: center;
-     text-align: left;
-     /* justify-content: flex-start; */
-     text-decoration-line: underline;
-     color: #AD7F00;
-     flex: none;
-     order: 0;
-     flex-grow: 0;
-     /* margin: 0px 10px; */
-   }
-   .gallery2-conteiner__link:hover{
-    opacity: 0.5;
-  }
-
-   .third-gallery3{
-
-     width: 368px;
-     height: 620px;
-    /* left: 887px;
-     top: 2531px;*/
-     opacity: 0.5;
-     background-color: #E5E5E5;
-     padding-left: 10px;
-     padding-right: 10px;
-   }
-   .gallery3{
-
-     height: 555px;
-     width: 368px;
-     left: 0%;
-     right: 0%;
-     top: 0px;
-     background: #F6F6F6;
-     box-shadow: 6px 6px 16px
-     rgba(163, 163, 163, 0.6),
-     -8px -8px -16px #FFFFFF,
-     inset 4px 4px 16px rgba(203, 203, 203, 0.25);
-     border-radius: 5px;
-   }
-    .gallery3__img{
-
-      height: 356px;
-      width: auto;
-      padding-left: 4.62%;
-      padding-right: 4.35%;
-      padding-top: 16px;
-      /*background: url('https://diana-diana-dev.github.io/Help_animals/pictures/image15(2).png');*/
-    }
-    .gallery3__name{
-
-      height: 20px;
-      left: 4.62%;
-      right: 4.35%;
-      top: 380px;
-      font-family: Gilroy;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 22px;
-      line-height: 20px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-      color: #242424;
-      margin-bottom: 10px;
-      margin-top: 7px;
-    }
-    .gallery3__line{
-
-      height: 0px;
-      left: 4.62%;
-      right: 4.35%;
-      top: 410px;
-      opacity: 0.5;
-      border: 1px solid #D6D6D6;
-      margin-bottom: 8px;
-    }
-    .gallery3__boy-girl{
-
-      height: 20px;
-      padding-left: 4.62%;
-      padding-right: 4.35%;
-      top: 418px;
-      font-family: Gilroy;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px;
-      display: flex;
-      align-items: center;
-      color: #6B6B6B;
-      margin-bottom: 6px;
-      }
-    .gallery3__text{
-
-      width: 335px;
-      height: 64px;
-      padding-left: 4.62%;
-      padding-right: 4.35%;
-      top: 444px;
-      font-family: Gilroy;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px;
-      display: flex;
-      color: #242424;
-  }
-  .gallery3-conteiner{
-    display: flex;
-    align-items: center;
-    padding-left: 17px;
-    top: 508px;
-
-  }
-  .gallery3-conteiner__link{
-
-    height: 40px;
-    left: 0px;
-    right: 0px;;
-    top: calc(50% - 40px/2);
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 40px;
-    display: flex;
-    align-items: center;
-    text-align: left;
-      /* justify-content: flex-start; */
-    text-decoration-line: underline;
-    color: #AD7F00;
-    flex: none;
-    order: 0;
-  flex-grow: 0;
-      /* margin: 0px 10px; */
-
-  }
-  .gallery3-conteiner__link:hover{
-    opacity: 0.5;
-  }
   .buttons{
     display: flex;
-    width: 100%;
+    justify-content: center;
 
    }
-  .buttons__left{
-    display: flex;
-    width: 33.3%;
-    justify-content: center;
-    align-items: center;
-    padding-left: 110px;
-  }
 
-  .buttons__btn_left:hover{
-    opacity: 0.5;
-  }
 
   .buttons__center{
     display: flex;
     flex-direction: column;
-    width: 33.3%;
-    justify-content: center;
     align-items: center;
 
   }
@@ -854,16 +640,6 @@ body{
 
 
   .buttons__take_temporarily:hover{
-    opacity: 0.5;
-  }
-  .buttons__right{
-    display: flex;
-    width: 33.3%;
-    justify-content: center;
-    align-items: center;
-    padding-right: 110px;
-  }
-  .buttons__btn_right:hover{
     opacity: 0.5;
   }
   .social{

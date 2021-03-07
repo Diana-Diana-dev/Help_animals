@@ -1,3 +1,24 @@
 $(document).ready(function(){
-	$('.gallery').slick();
+	$('.gallery').slick({
+		 dots:false,
+		 slidesToShow:3,
+		 speed:1000,
+		 easing:'ease',
+		 infinite:true,
+		 autoplay:true,
+		 autoplaySpeed:1000,
+		 touchThreshold:10,
+		 waitForAnimate:false,
+		 centerMode:true,
+		 variableWidth:true,
+         responsive: [
+        {
+     		 breakpoint:768,
+     		 settings:{
+         		slidesToShow:2,
+         		arrows:false
+         	}
+         }
+       ]
+	});
 });
