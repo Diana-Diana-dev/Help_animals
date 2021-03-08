@@ -408,12 +408,12 @@
        <section class="bord4">
     	     <a name="8"><img class="bord4__4" src='https://diana-diana-dev.github.io/Help_animals/pictures/Group27.png' alt='иконка автомобиль с собачкой'></a>
       </section>
-      <section>
+			<section>
 
           <h2 class="autohelp-name"><a name="14"> Автопомощь</a></h2>
           <p  class="autohelp-text">Важной помощью будет транспортировка. Необходимо отвозить животных в ветеринарную клинику в сопровождении нашего волонтёра или привозить еду. Если у вас есть автомобиль, немного свободного времени и доброе сердце - будем вам рады.</p>
 
-         <a class="autocar-btn" href="https://diana-diana-dev.github.io/Help_animals/auto_help.html"><img src='https://diana-diana-dev.github.io/Help_animals/pictures/Frame22.png' alt='кнопка оставить заявку'></a>
+         <a href="#popup" class="autocar-btn"><img src='https://diana-diana-dev.github.io/Help_animals/pictures/Frame22.png' alt='кнопка оставить заявку'></a>
       </section>
     <section>
       <div class="bord5">
@@ -490,6 +490,98 @@
      	      <a class="menu-footer2__contakts" href="#4">Контакты</a>
       	</div>
     </footer>
+
+
+		    <div id="popup" class="popup">
+		      <a href="#header" class="popup__area"></a>  <!-- для закрытия формы, кликом на свободное место. -->
+		      <div class="popup__body">
+		        <div class="popup__content">
+		          <a href="#header" class="popup__close">X</a>
+		          <div class="popup__title"></div>
+		          <div class="popup__text"><form action="index.html" method="post">
+		     <h3 class="forma__title">Автопомощь</h3>
+		     <div class="forma__line"></div>
+		     <h4 class="forma__title-name">Заявка</h4>
+		     <p class="forma__text">
+		      Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.
+		     </p>
+		     <label for="name">Фамилия и имя</label>
+		     <input type="text" id="name" name="username"  tabindex="1" placeholder="Фамилия и имя">
+		     <label for="tel">Номер телефона</label>
+		     <input type="tel" id="tel" name="username" tabindex="2" placeholder="Номер телефона" required="Обязательное поле для заполнения" pattern="+375" minlength="13" maxlength="13">
+		     <p class="forma__text-time">
+		      Выберите удобное время, когда вы сможете нам помочь
+		     </p>
+		     <select id="menu" name="menu">
+
+
+		      <option value="value1">
+		        08:00-10:00
+		      </option>
+		      <option value="value1">
+		        10:00-12:00
+		      </option>
+		      <option value="value1">
+		        12:00-14:00
+		      </option>
+		      <option value="value1">
+		        14:00-16:00
+		      </option>
+		      <option value="value1">
+		        16:00-18:00
+		      </option>
+		      <option value="value1">
+		        18:00-20:00
+		      </option>
+		     </select>
+		     <div class="check">
+		     <input class="input" type="checkbox" id="weekdays" value="weekdays" name="days">
+		     <label class="label" for="weekdays">
+		           В любой будний день
+		     </label>
+		     </div>
+		     <div class="check">
+		     <input class="input" type="checkbox" id="weekends" value="weekends" name="days">
+		     <label class="label" for="weekends">
+		           В любой выходной день
+		     </label>
+		     </div>
+		     <p class="forma__text-car">Выберите вид автопомощи</p>
+		     <div class="check">
+		     <input class="input" type="checkbox" id="food" value="food" name="avtohelp">
+		     <label class="label" for="food" >
+		       Доставка еды, медикаментов и других небольших вещей
+		     </label>
+		     </div>
+		     <div class="check">
+		     <input class="input" type="checkbox" id="build" value="build" name="avtohelp">
+		     <label class="label" for="build" >
+		       Доставка сена или соломы, строительных материалов для будок и других крупногабаритных вещей
+		     </label>
+		     </div>
+		     <div class="check">
+		     <input class="input" type="checkbox" id="cat" value="cat" name="avtohelp">
+		     <label class="label" for="cat" >
+		       Транспортировка небольших собак и котов
+		     </label>
+		     </div>
+		     <div class="check">
+		     <input class="input" type="checkbox" id="bigdog" value="bigdog" name="avtohelp">
+		     <label class="label" for="bigdog" >
+		       Транспортировка больших собак
+		     </label>
+		     </div>
+		     <textarea class="textarea" id="note" name="note" tabindex="3" placeholder="Замечания" cols="50" rows="5"></textarea>
+		  <button class="btn-otpr" type="submit"><img src="https://diana-diana-dev.github.io/Help_animals/pictures/normal_11.png"></button>
+		  <button class="btn-otm" type="submit"><img src="https://diana-diana-dev.github.io/Help_animals/pictures/normal_21.png"></button>
+		  </form></div>
+
+		        </div>
+
+		      </div>
+
+		    </div>
+
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	  <script src="js/script.js"></script>
 	  <script src="js/slick.min.js"></script>
