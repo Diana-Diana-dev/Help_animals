@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Задачи</title>
+</head>
+<body>
+	 <div>
+        <p>Текст</p>
+        <p>Другой</p>
+        <p>Следующий</p>
+        <p>Последний</p>
+      </div>
+      <div></div>
+      <div></div>
+
+
+       <!-- Получить и вывести в консоль: -->
+          
+<script>
+	     // 1. head
+ console.log(document.head);
+
+        // 2. body
+console.log(document.body);
+
+        // 3. все дочерние элементы body
+    for (let i = 0; i < document.body.childNodes.length; i++) {
+      console.log(document.body.childNodes[i]); 
+    }  
+        // 4. первый div и все его дочерние узлы 
+      let list= document.querySelectorAll("body > div:first-child") ; 
+    for (let val of list) 
+       console.log(val);
+
+       // или
+    let list_0= document.querySelectorAll("body > div");  
+    console.log(list_0[0]);
+
+        // или
+    var elem = document.getElementsByTagName('div');
+    console.log(elem[0]);    
+
+
+       // 4.1 вывести все дочерние узлы в консоль 
+
+     let p= document.body.firstChild.nextSibling;
+    console.log(p.innerHTML);
+
+
+        
+
+
+	 
+ </script>
+</body>
+</html>
