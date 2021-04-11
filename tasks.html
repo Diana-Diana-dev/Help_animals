@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Задачи</title>
+</head>
+<body>
+	<script>
+		   // ПЕРЕМЕННЫЕ
+		   // придумать название для переменных, которые описывают(let, const)
+    // const name;
+    // const surname;
+    // let age;
+    // let userInformation;
+
+           // что будет в консоле и почему:
+   // 1 
+      
+      // console.log(test);
+      // var test='string';
+      // Выведет в консоль - undefined, т.к. переменная инициализирована после console.log 
+   // 2
+       // var x='string';
+       // var x='string 2';
+      // console.log(x);
+      // Выведет в консоль - string 2, т.к. переменная var может изменяться и была переопределена
+   // 3
+      // console.log(test);
+      // let test='string';
+      // Выведет в консоль - undefined, т.к. переменная инициализирована после console.log---------?
+   // 4
+      // const x='string';
+      // const x='string 2';
+      // console.log(x);
+      // Выведет в консоль - error, т.к. переменная const была уже объявлена
+   // 5
+      // let num = 12;
+      // let num = 1;
+      // console.log(num);
+      // Выведет в консоль - error, т.к. переменная let была уже объявлена
+
+
+
+         //СТРОКИ
+      let string = 'string test example';
+
+         // Получить первую и последнюю букву строки
+      console.log(string[0]);
+      console.log(string[string.length-1]); 
+
+         // Сделать первую и последнюю буквы в верхнем регистре 
+      console.log(string[0].toUpperCase()+string.slice(1)+string[string.length-1].toUpperCase());
+
+         // Найти положение слова string в строке
+      console.log(string.indexOf('string'));
+
+         // Найти положение второго пробела
+      console.log(string.indexOf(' ',8));
+
+         // Получить строку со 2-ого символа длинной 6 букв
+      console.log(string.slice(2,8));
+
+         // Получить строку с 1 по 7 символ
+      console.log(string.slice(1,7));
+
+         // Получить из ух переменных типа number x = 20, y = 21 получить строку '2021'
+       var x =20;
+       var y =21;
+       var x=String(x);
+       var y=String(y);
+     console.log(x+y); 
+
+
+
+         // ЧИСЛА
+
+         // Получить число PI из Math и округлить его до двух знаков после точки
+      var num=Math.PI;  
+      console.log(num);
+      console.log(Math.floor(num*100)/100);
+
+         // Найти максимальное и минимальное значения из представленного ряда 10, 17, 5, 12, 15, 99, 1
+     console.log(Math.min.apply(null, [10,17,5,12,15,99,1]));
+     console.log(Math.max.apply(null, [10,17,5,12,15,99,1]));
+
+         // С помощью Math.random:
+         // получить случайное число и округлить его до двух цифр после запятой
+      var count=Math.random();
+      console.log(Math.floor(count*100)/100);
+
+         // получить случайное число от 0 до Х
+         
+      console.log(Math.floor(Math.random()*15));
+
+         // Получить число из строки '100$'
+      var num= +'100$'.replace(/\D+/g,"");
+      console.log(num);
+
+
+
+         // ОБЪЕКТЫ
+         // Создать объект с полем 'notebook' равным 'MacBook'
+      var fields={
+        notebook: 'Macbook',
+      };
+       Object.assign(fields, {price: '1500', currensy: 'dollar'});
+      console.log(Object.keys(fields));
+       Object.assign(fields, {details:{model: 'X67jk', color: 'green'}});
+      console.log(Object.keys(fields));
+      console.log(Object.values(fields));
+
+
+
+         // Выражения и операторы. Преобразование типов.
+         // Записать в коротком виде:
+
+      // let a = a + 5;      a+=5;
+      // let b = b * 15;     b*=15;
+      // let c = c - 3;      c-=3;
+      // let d = d % 2;      d%=2;
+      // let k = a + k;      k=+a;
+      // let l = l * b;      l*=b;
+      // let m = m * 3 * k;  m*=3*k;   
+
+         // Возвести переменную в куб, используя краткую запись.
+      
+      let kub=2;
+      kub**=3;
+      console.log(kub);  
+
+
+         // Если переменная равна “маленький”, присвоить ей значение “большой”, иначе “маленький”. Сделать тоже самое, используя тернарный оператор.
+      var size='little';
+      if(size == 'little'){
+        size = 'big';
+         console.log(size);
+      }
+      else{
+        size='little';
+        console.log(size);
+      }
+
+       var sizes='little',
+       sizes = 'little' ? sizes = "big" :  sizes = "little"
+       console.log(sizes);
+
+          // Записать условие, используя условный оператор if: если переменная меньше нуля: присвоить ей строку “меньше нуля” если переменная равна нулю: присвоить 1 если больше нуля: используя краткую запись, умножить переменную на 10 Сделать тоже самое, используя тернарный оператор.
+      var number=8;
+      if (number<0){
+        number='меньше нуля'
+        console.log(number);
+      }
+      else if(number==0){
+        number=1
+        console.log(number);
+      }
+      else if(number>0){
+        number*=10
+       console.log(number);
+      }
+      
+
+      var number=-5;
+      number < 0 ? number = "меньше нуля" : number==0 ? number=1 : number*=10
+     console.log(number);
+
+
+        // Используя конструктор switch, записать следующее условие:
+
+// if(a == 'котик') {
+//   console.log('котик');
+// } else if(a == 'собака') {
+//   console.log('собака');
+// } else if(a == 'хомячок') {
+//   console.log('хомячок');
+// } else {
+//   console.log('неизвестное науке животное');
+// }
+// Важно: в консоли вы должны увидеть только одно условие из 4х.
+
+      var a = 'мышак';
+    switch(a) {
+      case 'котик':
+      console.log('котик');
+      break;
+      case 'собака':
+      console.log('собака');
+      break;
+      case 'хомячок':
+      console.log('хомячок');
+      break;
+      default:
+      console.log('неизвестное науке животное');
+      break;
+    }  
+
+
+         // Чему равен x в каждом из примеров, объясните почему:
+// let x = 0 || 'строка';      x=строка   || находит первое истинное значение (0-false)
+// let x = 1 && 'строка';      x=строка   && находит первое ложное значение или выводит последнее
+// let x = null || 1;          x=1        || находит первое истинное значение (1-true)
+// let x = null && 1;          x=null     && находит первое ложное значение (1-true)
+// let x = 1 && null;          x=null     && находит первое ложное значение (1-true)
+// let x = null || 0 || 1;     x=1        || находит первое истинное значение (1-true)
+// let x = null && 0 && 1;     x=null     && находит первое ложное значение
+
+         // Чему равен x в каждом из примеров, объясните почему:
+ // let x = 1 + 2 + '3';       x=33   Математическое сложение и конкатенация
+ // let x = 1 + 2 - '1';       x=2    1 приводится к числу
+ // let x = '1' + 2 - 1;       x=11   Конкатенация и математическое сложение
+ // let x = true + 1;          x=2    true = 1  и математическое сложение
+ // let x = +'1' + 2;          x=3    оператор '+' меняет str на number и математическое сложение
+ // let x = null + 2;          x=2    математическое сложение 0+2
+ // let x = undefined + 2;     NaN    undefined становится NaN после численного преобразования      
+ // let x = true + undefined;  NaN    undefined становится NaN после численного преобразования 
+
+
+
+
+        // ЦИКЛЫ
+     // В строке "Я стану крутым программистом" сделать первую букву каждого слова в верхнем регистре"  
+  var become= "Я стану крутым программистом";
+  var become1=become.split(' ');
+  for(var i =0; i<become1.length; i++){
+  become1[i]=become1[i].slice(0, 1).toUpperCase()+become1[i].slice(1);
+  }
+  var become=become1.join(' ');
+  console.log(become);
+   
+
+
+     // Вычислить факториал числа 9 (факториал числа - это произведение всех натуральных чисел от 1 до n включительно. например, 2! = 21 или 6! = 654321) .
+
+  var factorial=9;
+  var total=1;
+  for (var i = 9; i > 1; i--) {
+   total*=i;
+  }
+  console.log(total);
+
+
+     // Создать строку "Просветление наступит через: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1"
+
+  var prosvetlenie=10;
+  for (var i = 0; i <10; i++) {
+    console.log('Просветление наступит через: ' + prosvetlenie);
+    prosvetlenie=prosvetlenie-1;
+    
+  }
+
+  // -------------------------------------------------
+
+  var prosvetlenie=11;
+  var prosvetlenieTotal=[];
+  for (var i = 1; i <=10; i++) {
+    
+    prosvetlenie=prosvetlenie-1;
+    prosvetlenieTotal.push(prosvetlenie) ;
+    
+  }
+  console.log('Просветление наступит через: ' + prosvetlenieTotal);
+
+
+
+     // Найти и вывести в консоль все нечетные числа от 1 до 20 включительно.
+ 
+  for (var i = 0; i <= 20; i++) {
+   if(i%2 != 0 ){
+    console.log(i);
+   }
+  }
+
+
+
+     // На основе строки "теперь я мастер циклов javascript" создать новую строку, где первые буквы каждого слова будут в верхнем регистре и будут отсутствовать пробелы.
+
+  var now= "теперь я мастер циклов javascript";
+  var now1=now.split(' ');
+  for(var i =0; i<now1.length; i++){
+  now1[i]=now1[i].slice(0, 1).toUpperCase()+now1[i].slice(1);
+  }
+  var now2=now1.join('');
+  console.log(now);
+   console.log(now2);
+
+
+
+
+           // МАССИВЫ
+     //Используя функцию, найти последний элемент массива, не изменяя его.
+   function last(){
+    var fruits=['apple', 'orange', 'banana', 'pineapple', 'plum', 'mango'];
+    var elem=fruits[fruits.length-1];
+    console.log(elem);
+   }
+
+  last()
+
+
+     // Создать такую функцию, которая принимала бы массив [1,3,6], а возвращала новый массив с дублированными элементами [1,3,6,1,3,6].
+   function dublicate(){
+    var count=[1,3,6];
+    count=count.concat(count);
+    console.log(count);
+  }
+   dublicate()
+
+
+     // Создать такую функцию, которая принимала бы любое число, а возвращала массив, заполненный числами от 1 до n.
+  //  function counts(){ 
+  //  var counts=[];
+  //  while(true){
+  //  var count=+prompt('введите число');
+  //  if(!count)break;
+  //  counts.push(count);
+  //  console.log(counts);
+  // }
+  // }
+  //  counts()
+
+
+     // Создать такую функцию, которая принимала бы любое число массивов и удаляла из каждого массива первый элемент, а возвращала массив оставшихся значений ([1, 2, 3], ["x", "y", "z"] → [[2, 3], ["y", "z"]])"
+  function noname(){
+   var arrays=[];
+   var a=[1, 2, 3, 4, 5];
+   var b=['a', 'b', 'c', 'd', 'e'];
+   var c=['1qa', '2ws', '3ed', '4rf', '5tg'];
+   var a1=a.shift();
+   var b1=b.shift();
+   var c1=c.shift();
+
+   arrays.push(a);
+   arrays.push(b);
+   arrays.push(c);
+   console.log(arrays);
+
+  }
+   noname()
+
+
+     // Создать функцию, которая упорядочит буквы в строке "екважбигёзд" в алфавитном порядке и возвратит строку в обратном порядке ("кизжёедгвба").
+     function reverse(){
+   var words="екважбигёзд"
+   var wordsResult=words.split('').sort().reverse().join('');
+   console.log(wordsResult);
+   }
+   reverse()
+
+      // или
+    
+     
+   let words = "екважбигёзд";
+
+   let collator = new Intl.Collator();
+   var word=words.split('');
+   word.sort(function(a, b) {
+  return collator.compare(a, b);
+   }).reverse();
+
+   console.log( word.join('') );
+
+   
+     // Используя функцию, отсортировать массив [5, 2, -1, 6, 9, -9, 3] в обратном порядке.
+     function sortReverse(){
+      var number=[5, 2, -1, 6, 9, -9, 3];
+      number.sort().reverse();
+      console.log(number);
+     }
+     sortReverse()
+
+
+     // Создать функцию, которая принимает 3 аргумента: любой произвольный массив начальный номер элемента в массиве конечный номер
+
+     function threeArgumenta(){
+     var clothes=['hat', 'dress', 'suit',];
+      var start='blouse';
+      var end='skirt';
+      clothes.unshift(start);
+      clothes.push(end);
+     console.log(clothes);
+     }
+     threeArgumenta()
+
+
+
+      // Удвоить элементы массива, не используя циклы.,
+
+      var fruits=['apple', 'banana', 'mango', 'orange', 'pineapple', 'plum'];
+      function duplicate(arr) {
+          return fruits.concat(fruits).sort();
+      } 
+      console.log(duplicate([]));
+                  // или
+     var numbers=[1, 2, 3, 4, 5];
+     var num=numbers.map(x => x * 2);
+     console.log (num);           
+
+
+
+      // Удалить из массива [1, 2, 3, 4, 5] второй и третий элементы.
+      var del=[1, 2, 3, 4, 5];
+      del.splice(2,2);
+      console.log(del);
+
+
+        // Удалить из массива [1, 2, 3, 4, 5] второй и третий элементы и на их место вставить “три” и “четыре” соответственно.
+      var del=[1, 2, 3, 4, 5];
+      del.splice(2,2, 3, 4 );
+      console.log(del);
+
+
+       // Вставить в произвольный массив любое значение после второго элемента.
+  var fruits=['apple', 'banana', 'mango', 'orange', 'pineapple', 'plum'];
+  fruits.splice(3,0, 'tomato');
+  console.log(fruits);
+
+
+      // Отсортировать массив таким образом, чтобы вначале шли массивы с наименьшей длиной. Создать копию произвольного массив"
+   var mass=[[1, 2, 3, 4, 5],['apple', 'banana', 'mango', 'orange', 'pineapple', 'plum'],['hat', 'dress', 'suit',]];
+    mass.sort(function(prev, next){
+      if(prev.length>next.length) return 1;
+      if(prev.length<next.length) return -1;
+    });
+    console.log(mass);
+
+
+        // Отсортировать массив объектов по возрастающему количеству ног животных: [ {kind: "tarantula", info: {legs: 8, eyes: 8}}, {kind: "french bulldog", info: {legs: 4, eyes: 2}}, {kind: "human", info: {legs: 2, eyes: 2}}, {kind: "lobster", info: {legs: 10, eyes: 2}},]
+
+    var animales=[ {kind: "tarantula", info: {legs: 8, eyes: 8}}, {kind: "french bulldog", info: {legs: 4, eyes: 2}}, {kind: "human", info: {legs: 2, eyes: 2}}, {kind: "lobster", info: {legs: 10, eyes: 2}},];
+    var legsNumber=animales.slice(0);
+    legsNumber.sort(function(a,b) {
+    return a.info.legs - b.info.legs;
+    });
+    console.log(legsNumber);
+
+
+       // Написать функцию, которая принимает массив услуг и два числа, представляющих собой время исполнения услуг, а также возвращает все услуги, находящиеся в диапазоне времени исполнения и отсортированные от меньшего времени исполнения к большему. const services = [ {service: "service1", executionTime: 56}, {service: "service2", executionTime: 97}, {service: "service3", executionTime: 23}, {service: "service4", executionTime: 65}, {service: "service5", executionTime: 2}, {service: "service6", executionTime: 73}, {service: "service7", executionTime: 82}, {service: "service8", executionTime: 19}, {service: "service9", executionTime: 33}, {service: "service10", executionTime: 42}, ]
+       // Например, filterServices(services, 20, 60).
+
+
+   const services = [ {service: "service1", executionTime: 56}, {service: "service2", executionTime: 97}, {service: "service3", executionTime: 23}, {service: "service4", executionTime: 65}, {service: "service5", executionTime: 2}, {service: "service6", executionTime: 73}, {service: "service7", executionTime: 82}, {service: "service8", executionTime: 19}, {service: "service9", executionTime: 33}, {service: "service10", executionTime: 42}, ];
+   let servicesTime = services.slice(0);
+   servicesTime.sort(function(a,b) {
+    return a.executionTime - b.executionTime;
+   });
+   function select20_60(value) {
+    return value > 20 && value < 60;
+   }
+   // let filtered = services.filter(select20_60);
+   // console.log(filtered);
+
+
+
+
+        // ФУНКЦИИ
+    // Создать функцию multiply, которая будет принимать любое количество чисел и возвращать их произведение: multiplay(1,2,3) = 6. Если нет ни одного аргумента вернуть ноль. 
+
+ //    function multiply(){
+ //  var numberMas = [];
+ //  while (true){
+ //    var number=+prompt('Введите любое число');
+ //  if (!number){
+ //     console.log(0);
+ //   break;
+ //    }
+ //  numberMas.push(number);
+ //  var total = 1;
+ // for (var i = 0; i < numberMas.length; i++){
+ //  total*= numberMas[i];
+
+ //    }
+ //  } 
+ //  console.log(total);
+ //  }
+ //  console.log(total);
+ //  multiply(); 
+
+
+
+      // С помощью ри курсе вычислить факториал числа 10.  
+  
+
+      function FirstFactorial(num) {
+       for(var i = num-1; i >= 1; i--){
+          num = num * i;
+      }
+      return num;     
+     }
+      console.log( FirstFactorial(10));
+
+
+
+      // function SecondFactorial(n){
+      // if(n <= 1) 
+      // return 1;
+      // else return n * SecondFactorial(n - 1);
+      // }
+      // console.log(SecondFactorial(10));
+  
+
+
+      // function ThirdFactorial(n) {
+      //   return n ? n * ThirdFactorial(n - 1) : 1;
+      // }
+      // console.log( ThirdFactorial(10) ); 
+
+
+
+
+     // Создать функцию, которая принимает строку и возвращает перевернутую строку ('test') = 'tset'.  
+  // function reverseString(){
+  // var text = prompt('Введите текст');
+  // var textReverse=text.split("").reverse().join("");
+  // console.log(textReverse);
+  // }  
+  //  reverseString();   
+
+
+
+      // Написать функцию, которая проверяет является ли слово палиндромом
+    // function palindrom() {
+    //  var text = prompt('Введите текст');
+    //  var textPalindrom = text.split("").reverse().join("");
+    //  if (text===textPalindrom) {
+    //   console.log('Является палиндромом ');
+    //  }else{
+    //   console.log('Не является палиндромом ');
+    //  }
+    // }  
+    // palindrom();
+
+
+
+       // Создать функцию, которая в качестве аргумента принимает строку из букв и возвращает строку, где каждый символ разделен пробелом и заменён на значение символа из юникода. ((hello) => "104 101 108 108 111")
+    // function unicod(){
+    // var text = prompt('Введите текст');
+    // let output = "";
+    // for (let i = 0; i < text.length; i++) {
+    // output += text.charCodeAt(i) + " ";
+    // }
+    // console.log(output.trim());
+    // }
+    
+    // unicod();
+
+
+              // первая функция принимает массив и callback, возвращая строку из обработанного массива.
+              // вторая функция (callback) обрабатывает каждый элемент массива
+     var mass = [3, 6, 10, 44, 14];          
+    function elemSquareString(item, callback){
+    console.log(callback(item).join(' '));
+    }
+     elemSquareString(mass, massElem)
+
+
+    function massElem(item){
+    var massElemObj = item.map(x => x*x);
+    console.log(massElemObj);
+    return massElemObj
+    }
+
+</script>
+          
+
+    
+</body>
+</html>
